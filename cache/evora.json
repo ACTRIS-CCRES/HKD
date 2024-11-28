@@ -1,0 +1,16 @@
+{
+  "station": "evora",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.982ea3f82c82491b",
+      "name": "U\u00c9 CHM 15k"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.5c0b56e45213440f",
+      "name": "U\u00c9 HATPRO-G4"
+    }
+  ]
+}

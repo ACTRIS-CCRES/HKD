@@ -1,0 +1,31 @@
+{
+  "station": "leipzig-lim",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.03b269e6e784439c",
+      "name": "LIM LPM"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.3e013ad163c5451d",
+      "name": "LIM HATPRO-G5 (LIMHAT)"
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.156843ccb60a4a92",
+      "name": "LIM MRR-PRO (LIMRAD24)"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.7d8e02584f8541a9",
+      "name": "LIM CHM 15k (CEILIM)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f54a7d7ca3944dec",
+      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)"
+    }
+  ]
+}

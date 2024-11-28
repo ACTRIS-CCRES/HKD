@@ -1,0 +1,46 @@
+{
+  "station": "neumayer",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.9ccc0053d5c44ca6",
+      "name": "AWI RPG-FMCW-94-DP"
+    },
+    {
+      "id": "minimpl",
+      "pid": "https://hdl.handle.net/21.12132/3.f997d051867a43ed",
+      "name": "AWI MiniMPL"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.e166bb0b5e9246ce",
+      "name": "AWI HALO (234)"
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.31c4f71cf1a74e03",
+      "name": "TROPOS PollyXT (Arielle)"
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.e3902ab075664bf1",
+      "name": "AWI MRR-PRO"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.73abc649edd74c63",
+      "name": "TROPOS HATPRO-G5 (OCEANET)"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.ec09dc9c028c42d1",
+      "name": "TROPOS MIRA-35S (LACROS)"
+    },
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.f9703e0df4d143ee",
+      "name": "AWI CL51 (F3460002)"
+    }
+  ]
+}

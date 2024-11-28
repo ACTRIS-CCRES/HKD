@@ -1,0 +1,21 @@
+{
+  "station": "norunda",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.5a1e499b9a0d4333",
+      "name": "Lund CL51"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.bf6c0c3926c54dbb",
+      "name": "ESA RPG-FMCW-94-DP"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.1615a6ed824c4556",
+      "name": "ESA Parsivel\u00b2"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "station": "leipzig",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.9e05dc8968ed434f",
+      "name": "TROPOS PollyXT (LACROS)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.fa39ba9928544aae",
+      "name": "TROPOS RPG-FMCW-94-DP"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.922bd0a8c7f34064",
+      "name": "TROPOS Parsivel\u00b2 (LACROS)"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.be50699171b24e17",
+      "name": "TROPOS HALO (Shaun)"
+    },
+    {
+      "id": "chm15kx",
+      "pid": "https://hdl.handle.net/21.12132/3.cd3578e9f68b42c0",
+      "name": "TROPOS CHM 15k-x (LACROS)"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.a217d3ec6e6b47dd",
+      "name": "TROPOS HATPRO-G5 (LACROS)"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.c98b69a5099a4154",
+      "name": "TROPOS MIRA-35S (MBR7)"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.f6f3cee4a8014f41",
+      "name": "TROPOS HALO (Skipper)"
+    }
+  ]
+}

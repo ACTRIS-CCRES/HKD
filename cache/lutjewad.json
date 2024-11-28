@@ -1,0 +1,31 @@
+{
+  "station": "lutjewad",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.8535b36673a448ee",
+      "name": "TU Delft Parsivel\u00b2 (PAR009)"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.04e6aea45d5f44df",
+      "name": "TU Delft HATPRO-G5 (LARIO)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.04e6aea45d5f44df",
+      "name": "TU Delft HATPRO-G5 (LARIO)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.95e17b4d0cc24fe1",
+      "name": "TU Delft RPG-FMCW-94-DP (LARA)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
+      "name": "TU Delft Parsivel\u00b2 (PAR001)"
+    }
+  ]
+}
