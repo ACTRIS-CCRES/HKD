@@ -1,0 +1,16 @@
+{
+  "station": "rzecin",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.b517b9f95c014893",
+      "name": "UW BASTA"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.eb35ee6de17b49b4",
+      "name": "PULS CHM 15k"
+    }
+  ]
+}

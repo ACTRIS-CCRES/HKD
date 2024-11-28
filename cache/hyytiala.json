@@ -1,0 +1,41 @@
+{
+  "station": "hyytiala",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.191564170f8a4686",
+      "name": "UH RPG-FMCW-94"
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.241bda142975460b",
+      "name": "UH CL61"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.69dddc0004b64b32",
+      "name": "FMI Parsivel23"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.80082867c5744f11",
+      "name": "UH weather station"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.421272f219be4f97",
+      "name": "FMI / UH HALO 46"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.f360a2375f3e4e4f",
+      "name": "UH HATPRO-G5"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.69dddc0004b64b32",
+      "name": "FMI Parsivel23"
+    }
+  ]
+}

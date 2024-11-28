@@ -1,0 +1,6 @@
+-r requirements.txt
+ipython
+pre-commit
+pyright
+ruff
+types-requests

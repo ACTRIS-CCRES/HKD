@@ -1,0 +1,31 @@
+{
+  "station": "kenttarova",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.a93d1483f10742ff",
+      "name": "FMI HALO 146"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.e44e1ffac7954538",
+      "name": "FMI RPG-FMCW-94-DP"
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.f33e53dddde44495",
+      "name": "FMI CL61-B"
+    },
+    {
+      "id": "cl31",
+      "pid": "https://hdl.handle.net/21.12132/3.2a7c4f8b6c1344f3",
+      "name": "FMI CL31"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.07c5121351fc4370",
+      "name": "FMI weather station"
+    }
+  ]
+}

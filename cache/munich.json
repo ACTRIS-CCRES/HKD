@@ -1,0 +1,41 @@
+{
+  "station": "munich",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.7c1d258632f94cdd",
+      "name": "LMU MIRA-35S (Ka-MACS)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.e0c62913f7c34b71",
+      "name": "LMU RPG-FMCW-94-DP (W-MACS)"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.fa676e2576644868",
+      "name": "LMU weather station"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.4025c06be1ab4983",
+      "name": "LMU HATPRO-G5"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.3b159f9ee29544e9",
+      "name": "LMU HATPRO-G4"
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.002a1af1dbc143b5",
+      "name": "LMU MRR-PRO"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.60eef0a44a7542a0",
+      "name": "LMU CHM 15k"
+    }
+  ]
+}

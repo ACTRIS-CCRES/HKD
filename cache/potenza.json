@@ -1,0 +1,31 @@
+{
+  "station": "potenza",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.31a1d1e9694f47bd",
+      "name": "CNR HALO"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.a150e648f86847a5",
+      "name": "CNR MIRA-35S"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.5f33c2febc654f4b",
+      "name": "CNR HATPRO-G5"
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.289f5d0e2aaa466f",
+      "name": "CNR MRR-PRO"
+    },
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.7133f30865bc4781",
+      "name": "CNR CL51"
+    }
+  ]
+}

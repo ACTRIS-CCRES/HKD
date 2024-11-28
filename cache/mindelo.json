@@ -1,0 +1,41 @@
+{
+  "station": "mindelo",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.fbf9185dbde345ab",
+      "name": "TROPOS HATPRO-G5 (Mindelo)"
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.3b8d6fb7e7e24f1d",
+      "name": "TROPOS PollyXT (cpv)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.3809aae6fdb24f61",
+      "name": "TROPOS RPG-FMCW-94-DP (Melpitz)"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.738143791c524103",
+      "name": "TROPOS HALO XR (Timmy)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.a5857315ede24789",
+      "name": "TROPOS Parsivel\u00b2 (Mindelo)"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.c98b69a5099a4154",
+      "name": "TROPOS MIRA-35S (MBR7)"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.fbf9185dbde345ab",
+      "name": "TROPOS HATPRO-G5 (Mindelo)"
+    }
+  ]
+}

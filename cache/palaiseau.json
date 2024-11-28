@@ -1,0 +1,46 @@
+{
+  "station": "palaiseau",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.b8909443cad240fc",
+      "name": "IPSL HATPRO-G2"
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.11d3217867474e22",
+      "name": "IPSL/CNRS LPM"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.739041931dac4de5",
+      "name": "IPSL weather station"
+    },
+    {
+      "id": "wls70",
+      "pid": "https://hdl.handle.net/21.12132/3.d5ee0db6ac964a04",
+      "name": "CEREA WLS70"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.7e13f3f243854ae8",
+      "name": "IPSL Parsivel\u00b2"
+    },
+    {
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.643b7b5b43814e6f",
+      "name": "IPSL BASTA"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.b14e15ec9c9b43fb",
+      "name": "IPSL CHM 15k"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.770aaf228a974dd6",
+      "name": "IPSL HATPRO-G5"
+    }
+  ]
+}

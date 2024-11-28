@@ -1,0 +1,21 @@
+{
+  "station": "cluj",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.d6bf209bc48b48a4",
+      "name": "UBB CHM 15k"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.028adedd35a44733",
+      "name": "UBB HATPRO-G5"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.0b458d3945e146cc",
+      "name": "UBB RPG-FMCW-94-DP"
+    }
+  ]
+}

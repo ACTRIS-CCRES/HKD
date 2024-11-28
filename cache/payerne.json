@@ -1,0 +1,31 @@
+{
+  "station": "payerne",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.5ffe1a5df37145cc",
+      "name": "MeteoSwiss CHM 15k"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.e095e262c7274203",
+      "name": "MeteoSwiss HATPRO-G5"
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.b1373817e44e4fa2",
+      "name": "MeteoSwiss LPM"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.37a71c75789f47c3",
+      "name": "UB RPG-FMCW-94-DP"
+    },
+    {
+      "id": "wls200s",
+      "pid": "https://hdl.handle.net/21.12132/3.a3c0f804d91e4966",
+      "name": "MeteoSwiss WLS200S"
+    }
+  ]
+}

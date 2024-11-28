@@ -1,0 +1,46 @@
+{
+  "station": "cabauw",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "wls200s",
+      "pid": "https://hdl.handle.net/21.12132/3.dca88604798e4647",
+      "name": "KNMI WLS200S"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.4c28f7a6b7fc4d15",
+      "name": "TU Delft RPG-FMCW-94-DP (MARA-94)"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.c07f533cd86041f1",
+      "name": "KNMI CHM 15k"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.b9ff0d23964949f0",
+      "name": "TU Delft RPG-FMCW-94-DP (CLARA-94)"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.c28c803c759c444c",
+      "name": "TU Delft HATPRO-G5 (CLARIO)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.65ecf80219d14d1b",
+      "name": "TU Delft Parsivel\u00b2 (PAR002)"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.46797fd6140c4249",
+      "name": "TU Delft HATPRO-G5 (MARIO)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
+      "name": "TU Delft Parsivel\u00b2 (PAR001)"
+    }
+  ]
+}

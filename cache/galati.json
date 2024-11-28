@@ -1,0 +1,31 @@
+{
+  "station": "galati",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.71dad3ea36ab476a",
+      "name": "DJUG RPG-FMCW-94-DP"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.8ca6674ead024d5f",
+      "name": "DJUG weather station"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.38f97c8dce064e02",
+      "name": "DJUG HATPRO-G5"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.079cdfced7a7438e",
+      "name": "DJUG CHM 15k"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.070929c5502747f6",
+      "name": "DJUG Parsivel\u00b2"
+    }
+  ]
+}

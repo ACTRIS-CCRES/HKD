@@ -1,0 +1,36 @@
+{
+  "station": "limassol",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.a5e937a2d7e64283",
+      "name": "ECoE HALO (Snoopy)"
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.055aa99bd53c4163",
+      "name": "ECoE PollyXT-CYP"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.d7b65c4b72b6432d",
+      "name": "ECoE CHM 15k"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.41582c4957f444b3",
+      "name": "ECoE Parsivel\u00b2"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.9af43f93e39649f5",
+      "name": "ECoE MIRA-35"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.33ef1f084a964bff",
+      "name": "ECoE HATPRO-G5"
+    }
+  ]
+}

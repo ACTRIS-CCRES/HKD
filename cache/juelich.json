@@ -1,0 +1,61 @@
+{
+  "station": "juelich",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.324507c6ce8e489c",
+      "name": "Uni K\u00f6ln CHM 15k"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f7e002664a7a4e4e",
+      "name": "Uni K\u00f6ln RPG-FMCW-94-DP-S (JOYDURADO-94)"
+    },
+    {
+      "id": "pluvio",
+      "pid": "https://hdl.handle.net/21.12132/3.49ca09deca9a4e3e",
+      "name": "Uni K\u00f6ln Pluvio\u00b2"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.48bd7da035b94ffd",
+      "name": "Uni K\u00f6ln HALO"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.0366fa69504f4bd6",
+      "name": "Uni K\u00f6ln MIRA-35S"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.2a1ca46ed70c4929",
+      "name": "Uni K\u00f6ln Parsivel\u00b2"
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.cd8c566efe7346e0",
+      "name": "Uni K\u00f6ln RPG-FMCW-35-DP-S (JOYDURADO-35)"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.726b3b29de1949cc",
+      "name": "Uni K\u00f6ln weather station"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.f51736b5923b483c",
+      "name": "Uni K\u00f6ln HATPRO-G5 (JOYHAT)"
+    },
+    {
+      "id": "ct25k",
+      "pid": "https://hdl.handle.net/21.12132/3.9a9061d587e24dc8",
+      "name": "Uni K\u00f6ln CT25k"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.1668271e8d364263",
+      "name": "Uni K\u00f6ln HATPRO-G5 (TOPHAT)"
+    }
+  ]
+}

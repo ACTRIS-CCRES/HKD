@@ -1,0 +1,26 @@
+{
+  "station": "lampedusa",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.49884fea4fde4ddd",
+      "name": "ENEA MIRA-35C"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.6415e5400cf7468e",
+      "name": "ENEA HATPRO-G5"
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.4e7765c0c8bd4d1d",
+      "name": "ENEA LPM"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.a5d479cd32a14a88",
+      "name": "ENEA CHM 15k"
+    }
+  ]
+}

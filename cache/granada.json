@@ -1,0 +1,56 @@
+{
+  "station": "granada",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.1d227f1b12b04efc",
+      "name": "UGR HALO 258 (Siroco)"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.140918e899a647f3",
+      "name": "UGR weather station"
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.45ee9a92825c447a",
+      "name": "UGR RPG-FMCW-35-DP"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.20570e63f7b1496c",
+      "name": "UGR RPG-FMCW-94-DP"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.77a75f3b32294855",
+      "name": "UGR CHM 15k"
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.8db7457671ef4052",
+      "name": "UGR MRR-PRO"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.8f31e16545d14ff3",
+      "name": "UGR Parsivel\u00b2"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.1e67e6c234d84b19",
+      "name": "UGR RPG-FMCW-94-DP"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.b2554a7cc6db4139",
+      "name": "UGR HATPRO-G2"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.eadafa59ffa648de",
+      "name": "UGR HALO 102"
+    }
+  ]
+}

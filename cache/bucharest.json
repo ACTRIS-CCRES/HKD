@@ -1,0 +1,41 @@
+{
+  "station": "bucharest",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.db58480f58ca49ad",
+      "name": "INOE HALO"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.90b1e5245b11487d",
+      "name": "ESA RPG-FMCW-94-DP"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.a75d4215f338412e",
+      "name": "INOE Parsivel\u00b2"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.930d8f295fa24ae5",
+      "name": "INOE weather station"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.c60c931fac9d43f0",
+      "name": "INOE CHM 15k"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.e7fe5a4f26ac4717",
+      "name": "INOE HATPRO-G5"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.d98f6fd2bec94e5e",
+      "name": "INOE MIRA-35S"
+    }
+  ]
+}

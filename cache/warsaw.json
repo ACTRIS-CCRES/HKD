@@ -1,0 +1,26 @@
+{
+  "station": "warsaw",
+  "last_update": "2024-11-28",
+  "instruments": [
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.23dcf19f232b46a5",
+      "name": "UW PollyXT"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.0b70b7b738cb4593",
+      "name": "UW Parsivel\u00b2"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.c8231fca052b4baa",
+      "name": "UW HALO"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.d11f764485a54f79",
+      "name": "INOE HATPRO-G2"
+    }
+  ]
+}
