@@ -3,6 +3,13 @@ url = "https://grafana.mydomain.com"
 token = "xxxx"
 influx_ql_uid = "xxxx"
 
+[influxdb]
+url = "http://localhost"
+org = "ORG-NAME"
+bucket = "bucket-name"
+port = 8086
+token = "xxxx"
+
 [instruments]
 [instruments.hatpro]
 one-site = "template_hatpro_one-station.json"

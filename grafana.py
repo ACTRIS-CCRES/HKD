@@ -7,7 +7,7 @@ from pathlib import Path
 import click
 
 from grafana.base import GrafanaAPI
-from utils import cloudnet, utils
+from utils import cloudnet, influxdb, utils
 
 __VERSION__ = "0.1.0"
 
@@ -84,23 +84,28 @@ def create_dashboards(config_file: Path, station: list[str]) -> int:
         "Instruments with dashboards templates: %s",
         ", ".join(instr_with_dashboards),
     )
+    # extract influxdb configuration
+    influx_config = config["influxdb"]
 
-    # Get data from cloudnet
+    # Get data from tag site_id
     # ----------------------------------------------------------------------------------
-    cloudnet_api = cloudnet.CloudnetAPI()
+    influx_api = influxdb.Influx(
+        influx_config["url"],
+        influx_config["token"],
+        influx_config["org"],
+        influx_config["port"],
+    )
+
     # CCRES stations
     logger.info("Getting CCRES stations...")
-    list_ccres_station = cloudnet_api.get_actris_sites()
-    if station:
-        # if stations selected by user, keep only them
-        list_ccres_station = [
-            site for site in list_ccres_station if site["id"] in station
-        ]
-    list_ccres_sites_id = [site["id"] for site in list_ccres_station]
+    list_ccres_sites = influx_api.get_list_sites(
+        bucket=influx_config["bucket"],
+        tag="site_id",
+    )
     logger.info(
         "%d CCRES stations: %s",
-        len(list_ccres_station),
-        ", ".join(list_ccres_sites_id),
+        len(list_ccres_sites),
+        ", ".join(list_ccres_sites),
     )
 
     # grafana
@@ -113,14 +118,14 @@ def create_dashboards(config_file: Path, station: list[str]) -> int:
     folders_uid = {
         elt["title"]: elt["uid"]
         for elt in folders_data
-        if elt["title"] in list_ccres_sites_id
+        if elt["title"] in list_ccres_sites
     }
 
     logger.info("Existing folders for station: %s", ", ".join(folders_uid.keys()))
 
     # loop over all ccres stations
-    for site in list_ccres_station:
-        site_id = site["id"]
+    for site in list_ccres_sites:
+        site_id = site
         # if only selected stations to process
         if station and site_id not in station:
             continue

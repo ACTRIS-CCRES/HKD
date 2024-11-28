@@ -1,3 +1,4 @@
 click
+influxdb-client[ciso]
 iteration_utilities
 requests
