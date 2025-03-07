@@ -918,7 +918,7 @@
               "condition": "AND",
               "key": "site_id::tag",
               "operator": "=",
-              "value": "lindenberg"
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
