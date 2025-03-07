@@ -1,0 +1,21 @@
+{
+  "station": "troll",
+  "last_update": "2025-03-07",
+  "instruments": [
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.0dfb3bc9828048c5",
+      "name": "NPI HATPRO-G5"
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.2a12682235ec41c7",
+      "name": "NPI CL61"
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.82bd078f71da4bba",
+      "name": "NPI RPG-FMCW-35-DP"
+    }
+  ]
+}

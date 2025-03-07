@@ -1,6 +1,6 @@
 {
   "station": "cluj",
-  "last_update": "2024-11-28",
+  "last_update": "2025-03-07",
   "instruments": [
     {
       "id": "chm15k",
@@ -16,6 +16,16 @@
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.0b458d3945e146cc",
       "name": "UBB RPG-FMCW-94-DP"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.5d15cd3ce9c54139",
+      "name": "UBB HALO"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.5a6e24d0ff9042b1",
+      "name": "UBB Parsivel\u00b2"
     }
   ]
 }

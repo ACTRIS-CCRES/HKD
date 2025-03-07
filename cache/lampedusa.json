@@ -1,6 +1,6 @@
 {
   "station": "lampedusa",
-  "last_update": "2024-11-28",
+  "last_update": "2025-03-07",
   "instruments": [
     {
       "id": "mira-35",
@@ -21,6 +21,11 @@
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.a5d479cd32a14a88",
       "name": "ENEA CHM 15k"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.5881321c3c4948ca",
+      "name": "ENEA AWS310"
     }
   ]
 }

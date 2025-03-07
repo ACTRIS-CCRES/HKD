@@ -1,6 +1,6 @@
 {
   "station": "mindelo",
-  "last_update": "2024-11-28",
+  "last_update": "2025-03-07",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -36,6 +36,11 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.fbf9185dbde345ab",
       "name": "TROPOS HATPRO-G5 (Mindelo)"
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.057664d9f5cd46cb",
+      "name": "TROPOS Precipitation Transmitter (Mindelo)"
     }
   ]
 }

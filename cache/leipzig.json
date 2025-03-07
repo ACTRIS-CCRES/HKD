@@ -1,6 +1,6 @@
 {
   "station": "leipzig",
-  "last_update": "2024-11-28",
+  "last_update": "2025-03-07",
   "instruments": [
     {
       "id": "pollyxt",
@@ -41,6 +41,31 @@
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.f6f3cee4a8014f41",
       "name": "TROPOS HALO (Skipper)"
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.4cab4fe7d62c406a",
+      "name": "TROPOS CL61 (LACROS)"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.7ddef75d7fee4dba",
+      "name": "TROPOS MIRA-35 (MBR9)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.3809aae6fdb24f61",
+      "name": "TROPOS RPG-FMCW-94-DP (Melpitz)"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.ec09dc9c028c42d1",
+      "name": "TROPOS MIRA-35S (LACROS)"
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.7cfaf3252c45451d",
+      "name": "TROPOS Precipitation Transmitter (LACROS)"
     }
   ]
 }
