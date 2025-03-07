@@ -125,6 +125,10 @@ def create_dashboards(config_file: Path, station: list[str]) -> int:
 
     # loop over all ccres stations
     for site in list_ccres_sites:
+        # TODO: remove vehmasmaki which make code bug
+        if site == "vehmasmaki":
+            logger.warning("Force skipping of %s", site)
+            continue
         site_id = site
         # if only selected stations to process
         if station and site_id not in station:
