@@ -155,7 +155,7 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
         logger.debug("Instruments: %s", ", ".join(instruments_id))
 
         for instrument in instruments_meta:
-            if instrument and instrument not in instr:
+            if instr and instrument.id not in instr:
                 continue
 
             logger.info(

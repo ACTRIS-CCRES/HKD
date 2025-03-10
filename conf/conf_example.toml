@@ -17,8 +17,14 @@ one-site = "template_hatpro_one-station.json"
 [instruments.chm15k]
 one-site = "template_chm15k_one-station.json"
 
+[instruments.basta]
+one-site = "template_basta_one-station.json"
+
 [instruments.rpg-fmcw-94]
 one-site = "template_rpg-fmcw-94_one-station.json"
 
 [instruments.rpg-fmcw-35]
 one-site = "template_rpg-fmcw-35_one-station.json"
+
+[instruments.cl61d]
+one-site = "template_cl61d_one-station.json"

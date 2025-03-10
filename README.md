@@ -86,6 +86,14 @@ Dashboards are only available for llufft CHM15k, RPG HATPRO, RPG-FMCW-35 and RPG
     python grafana.py create-dashboards conf/conf.toml -s juelich -s palaiseau
     ```
 
+- Create dashboards for a specific instrument
+
+    ```bash
+    python grafana.py create-dashboards conf/conf.toml -i hatpro
+    ```
+
+- Options `-s` and `-i` can be associated
+
 ## Developments
 
 - To install the development requirements
