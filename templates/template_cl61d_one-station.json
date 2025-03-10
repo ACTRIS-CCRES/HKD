@@ -1507,7 +1507,7 @@
             [
               {
                 "params": [
-                  "window_blower_heater_status"
+                  "window_blower_heater_warning"
                 ],
                 "type": "field"
               },
