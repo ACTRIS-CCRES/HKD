@@ -71,9 +71,16 @@ def grafana(verbose: str) -> None:
     "-s",
     type=str,
     multiple=True,
-    help="station to add or update",
+    help="station(s) to add or update",
 )
-def create_dashboards(config_file: Path, station: list[str]) -> int:
+@click.option(
+    "--instr",
+    "-i",
+    type=str,
+    multiple=True,
+    help="instrument(s) to add or update",
+)
+def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -> int:
     """Create ACTRIS-CCRES dashboards for all stations."""
     logger.info("Creating dashboards...")
     # read configuration file
@@ -148,6 +155,9 @@ def create_dashboards(config_file: Path, station: list[str]) -> int:
         logger.debug("Instruments: %s", ", ".join(instruments_id))
 
         for instrument in instruments_meta:
+            if instrument and instrument not in instr:
+                continue
+
             logger.info(
                 "Processing instrument: %s, %s, %s",
                 instrument.id,
