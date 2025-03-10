@@ -924,7 +924,7 @@
               "condition": "AND",
               "key": "instrument_pid::tag",
               "operator": "=",
-              "value": "https://hdl.handle.net/21.12132/3.695573e5981845d9"
+              "value": "{{pid}}"
             }
           ]
         }
