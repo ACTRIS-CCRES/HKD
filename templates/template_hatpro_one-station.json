@@ -1640,631 +1640,6 @@
         "x": 0,
         "y": 24
       },
-      "id": 2,
-      "options": {
-        "alignValue": "center",
-        "legend": {
-          "displayMode": "list",
-          "placement": "bottom",
-          "showLegend": false
-        },
-        "mergeValues": true,
-        "rowHeight": 0.9,
-        "showValue": "auto",
-        "tooltip": {
-          "hideZeros": false,
-          "mode": "single",
-          "sort": "none"
-        }
-      },
-      "pluginVersion": "11.5.0",
-      "targets": [
-        {
-          "alias": "1",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_channel1_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "2",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "B",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_channel2_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "3",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "C",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_channel3_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "4",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "D",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_channel4_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "5",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "E",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_channel5_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "6",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "F",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_channel6_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "7",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "G",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_channel7_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "noise diode",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "H",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_noise_diode_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        },
-        {
-          "alias": "stability",
-          "datasource": {
-            "type": "influxdb",
-            "uid": "{{influx_ql_uid}}"
-          },
-          "groupBy": [
-            {
-              "params": [
-                "$__interval"
-              ],
-              "type": "time"
-            },
-            {
-              "params": [
-                "null"
-              ],
-              "type": "fill"
-            }
-          ],
-          "hide": false,
-          "measurement": "housekeeping",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "I",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "temperature_profiler_stability_status"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [],
-                "type": "min"
-              }
-            ]
-          ],
-          "tags": [
-            {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_id::tag",
-              "operator": "=",
-              "value": "{{instrument_id}}"
-            },
-            {
-              "condition": "AND",
-              "key": "instrument_pid::tag",
-              "operator": "=",
-              "value": "{{pid}}"
-            }
-          ]
-        }
-      ],
-      "title": "Status of humidity receiver (1)",
-      "transparent": true,
-      "type": "state-timeline"
-    },
-    {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "{{influx_ql_uid}}"
-      },
-      "description": "",
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "fixed"
-          },
-          "custom": {
-            "fillOpacity": 70,
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "insertNulls": 3600000,
-            "lineWidth": 0,
-            "spanNulls": false
-          },
-          "fieldMinMax": false,
-          "mappings": [
-            {
-              "options": {
-                "0": {
-                  "color": "dark-red",
-                  "index": 0,
-                  "text": "not ok"
-                },
-                "1": {
-                  "color": "dark-green",
-                  "index": 1,
-                  "text": "ok"
-                }
-              },
-              "type": "value"
-            }
-          ],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "red",
-                "value": null
-              },
-              {
-                "color": "green",
-                "value": 1
-              }
-            ]
-          }
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 12,
-        "y": 24
-      },
       "id": 3,
       "options": {
         "alignValue": "center",
@@ -2794,6 +2169,631 @@
               {
                 "params": [
                   "humidity_profiler_stability_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "Status of humidity receiver (1)",
+      "transparent": true,
+      "type": "state-timeline"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "fixed"
+          },
+          "custom": {
+            "fillOpacity": 70,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": 3600000,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "fieldMinMax": false,
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "color": "dark-red",
+                  "index": 0,
+                  "text": "not ok"
+                },
+                "1": {
+                  "color": "dark-green",
+                  "index": 1,
+                  "text": "ok"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 24
+      },
+      "id": 2,
+      "options": {
+        "alignValue": "center",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "auto",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "1",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_channel1_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "2",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_channel2_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "3",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_channel3_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "4",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "D",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_channel4_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "5",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "E",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_channel5_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "6",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "F",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_channel6_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "7",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "G",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_channel7_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "noise diode",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "H",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_noise_diode_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "min"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "stability",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "I",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "temperature_profiler_stability_status"
                 ],
                 "type": "field"
               },
