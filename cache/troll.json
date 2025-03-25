@@ -1,6 +1,6 @@
 {
   "station": "troll",
-  "last_update": "2025-03-10",
+  "last_update": "2025-03-25",
   "instruments": [
     {
       "id": "hatpro",
@@ -16,6 +16,11 @@
       "id": "rpg-fmcw-35",
       "pid": "https://hdl.handle.net/21.12132/3.82bd078f71da4bba",
       "name": "NPI RPG-FMCW-35-DP"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.0dfb3bc9828048c5",
+      "name": "NPI LHATPRO-G5"
     }
   ]
 }

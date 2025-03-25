@@ -1,6 +1,6 @@
 {
   "station": "juelich",
-  "last_update": "2025-03-10",
+  "last_update": "2025-03-25",
   "instruments": [
     {
       "id": "chm15k",
@@ -61,6 +61,11 @@
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.0366fa69504f4bd6",
       "name": "Uni K\u00f6ln MIRA-35S (JOYRAD-35)"
+    },
+    {
+      "id": "ct25k",
+      "pid": "https://hdl.handle.net/21.12132/3.9a9061d587e24dc8",
+      "name": "Uni K\u00f6ln CT25K"
     }
   ]
 }

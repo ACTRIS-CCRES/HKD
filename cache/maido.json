@@ -1,5 +1,16 @@
 {
   "station": "maido",
-  "last_update": "2024-11-28",
-  "instruments": []
+  "last_update": "2025-03-25",
+  "instruments": [
+    {
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.7eed1e4ca919490a",
+      "name": "LACy BASTA"
+    },
+    {
+      "id": "cs135",
+      "pid": "https://hdl.handle.net/21.12132/3.157b13d21ee14e60",
+      "name": "OSU CS135"
+    }
+  ]
 }

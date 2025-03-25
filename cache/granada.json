@@ -1,6 +1,6 @@
 {
   "station": "granada",
-  "last_update": "2025-03-10",
+  "last_update": "2025-03-25",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
