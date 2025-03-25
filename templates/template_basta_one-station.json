@@ -144,15 +144,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -204,15 +204,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -264,15 +264,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -410,15 +410,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -556,15 +556,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -719,15 +719,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -779,15 +779,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -925,15 +925,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1049,7 +1049,7 @@
               "condition": "AND",
               "key": "instrument_pid::tag",
               "operator": "=",
-              "value": "https://hdl.handle.net/21.12132/3.643b7b5b43814e6f"
+              "value": "{{pid}}"
             },
             {
               "condition": "AND",
@@ -1123,6 +1123,22 @@
                 "value": {
                   "mode": "palette-classic-by-name"
                 }
+              },
+              {
+                "id": "thresholds",
+                "value": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": null
+                    },
+                    {
+                      "color": "red",
+                      "value": 1
+                    }
+                  ]
+                }
               }
             ]
           }
@@ -1140,7 +1156,7 @@
         "legend": {
           "displayMode": "list",
           "placement": "bottom",
-          "showLegend": true
+          "showLegend": false
         },
         "mergeValues": true,
         "rowHeight": 0.9,
@@ -1194,15 +1210,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1254,15 +1270,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1414,15 +1430,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1474,15 +1490,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1534,15 +1550,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1673,6 +1689,7 @@
               "type": "fill"
             }
           ],
+          "hide": false,
           "measurement": "housekeeping",
           "orderByTime": "ASC",
           "policy": "default",
@@ -1694,15 +1711,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1754,15 +1771,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1814,15 +1831,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -1960,15 +1977,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2020,15 +2037,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2166,15 +2183,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2325,15 +2342,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2385,15 +2402,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2544,15 +2561,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2604,15 +2621,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2664,15 +2681,15 @@
           ],
           "tags": [
             {
-              "key": "site_id::tag",
-              "operator": "=",
-              "value": "{{site_id}}"
-            },
-            {
-              "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
               "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
             },
             {
               "condition": "AND",
@@ -2696,7 +2713,7 @@
     "list": []
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-24h",
     "to": "now"
   },
   "timepicker": {
