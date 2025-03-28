@@ -1,0 +1,21 @@
+{
+  "station": "vehmasmaki",
+  "last_update": "2025-03-28",
+  "instruments": [
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.af519eeea2db4a90",
+      "name": "FMI HALO 53"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.3bfbb6e37acc41a3",
+      "name": "FMI MIRA-35S"
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.81960b9207554267",
+      "name": "FMI CL61-A"
+    }
+  ]
+}
