@@ -1,6 +1,6 @@
 {
   "station": "maido",
-  "last_update": "2025-03-25",
+  "last_update": "2025-03-28",
   "instruments": [
     {
       "id": "basta",
@@ -11,6 +11,11 @@
       "id": "cs135",
       "pid": "https://hdl.handle.net/21.12132/3.157b13d21ee14e60",
       "name": "OSU CS135"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.d7350d66862d4bd3",
+      "name": "OSU HATPRO-G5"
     }
   ]
 }

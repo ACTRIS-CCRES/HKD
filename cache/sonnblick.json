@@ -1,5 +1,11 @@
 {
   "station": "sonnblick",
-  "last_update": "2024-11-28",
-  "instruments": []
+  "last_update": "2025-03-28",
+  "instruments": [
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.6fef0ca2f66d4ffd",
+      "name": "GSA CL51"
+    }
+  ]
 }
