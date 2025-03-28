@@ -1,0 +1,2271 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "mvolt"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "background light",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "background_light"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "Background light",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "mvolt"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 0
+      },
+      "id": 6,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "background light",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "window_contamination"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "Windows contamination",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "max": 110,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "percent"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "temperature"
+            },
+            "properties": [
+              {
+                "id": "custom.axisPlacement",
+                "value": "right"
+              },
+              {
+                "id": "unit",
+                "value": "kelvin"
+              },
+              {
+                "id": "custom.axisSoftMin"
+              },
+              {
+                "id": "max"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 8
+      },
+      "id": 5,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "pulse energy",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "laser_pulse_energy"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "temperature",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "laser_temperature"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "Laser ",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "percent"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 8
+      },
+      "id": 7,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "receiver sensitivity",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "receiver_sensitivity"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "receiver sensitivity",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "fixed"
+          },
+          "custom": {
+            "fillOpacity": 70,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "color": "dark-green",
+                  "index": 0,
+                  "text": "ok"
+                },
+                "1": {
+                  "color": "dark-blue",
+                  "index": 1,
+                  "text": "alarm"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 24,
+        "x": 0,
+        "y": 16
+      },
+      "id": 2,
+      "options": {
+        "alignValue": "center",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "auto",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "laser temp shutoff",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "laser_temp_shutoff_alarm"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "laser failure",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "laser_fail_alarm"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "receiver failure",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "receiver_fail_alarm"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "voltage failure",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "D",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "voltage_fail_alarm"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "alarms",
+      "type": "state-timeline"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "fixed"
+          },
+          "custom": {
+            "fillOpacity": 70,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "color": "dark-green",
+                  "index": 0,
+                  "text": "ok"
+                },
+                "1": {
+                  "color": "dark-orange",
+                  "index": 1,
+                  "text": "warning"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 20
+      },
+      "id": 3,
+      "options": {
+        "alignValue": "center",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "auto",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "window contamination",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "window_contam_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "battery low",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "battery_low_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "laser low",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "laser_power_low_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "laser temp",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "D",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "laser_temp_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "internal temp",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "E",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "internal_temp_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "voltage range",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "F",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "voltage_range_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "humidity high",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "G",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "humidity_high_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "receiver crosstalk",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "H",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "receiver_crosstalk_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "blower failure",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "I",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "blower_fail_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "tilt angle",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "J",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "tilt_angle_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "background radiance",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "K",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "background_radiance_warning"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "warnings",
+      "type": "state-timeline"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "fixed"
+          },
+          "custom": {
+            "fillOpacity": 70,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "color": "dark-green",
+                  "index": 0,
+                  "text": "off"
+                },
+                "1": {
+                  "color": "dark-blue",
+                  "index": 1,
+                  "text": "on"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 24,
+        "x": 0,
+        "y": 28
+      },
+      "id": 4,
+      "options": {
+        "alignValue": "center",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "auto",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "11.5.0",
+      "targets": [
+        {
+          "alias": "blower",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "blower_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "blower heater",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "blower_heater_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "internal heater",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "C",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "internal_heater_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "polling mode",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "D",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "polling_mode_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "battery power",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "E",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "battery_power_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "single seq mode",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "F",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "single_seq_mode_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        },
+        {
+          "alias": "manual blower control",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "G",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "manual_blower_status"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "max"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "{{instrument_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "status",
+      "type": "state-timeline"
+    }
+  ],
+  "preload": false,
+  "refresh": "30m",
+  "schemaVersion": 40,
+  "tags": [
+    "{{instrument_id}}"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-24h",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ]
+  },
+  "timezone": "",
+  "title": "{{instrument_name}}",
+  "uid": "{{dashboard_uid}}",
+  "weekStart": ""
+}
