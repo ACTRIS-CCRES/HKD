@@ -185,6 +185,10 @@ def compute_statistics(config: dict, hkds: list[str]) -> pd.DataFrame:
                 # check if several instrument PID ie multiple instruments of same type
                 list_instrument_pid = pd.unique(data.instrument_pid)
                 for pid in list_instrument_pid :
+                    logger.info(
+                        "instrument_pid %s",
+                        pid,
+                    )
                     data = data[data.instrument_pid == pid]
                     data = data.drop("instrument_pid", axis=1)
                     data = data.set_index(data["_time"])
@@ -207,10 +211,6 @@ def compute_statistics(config: dict, hkds: list[str]) -> pd.DataFrame:
             for pid, data in hkd_data.items():
 
                 cond_hkd = (data[hkd] > config["hkds"]["chm15k"]["stats_thresh"][hkd])
-                logger.info(config["hkds"]["chm15k"]["stats_thresh"][hkd])
-                logger.info(cond_hkd)
-                logger.info(data[hkd])
-                logger.info(type(data))
 
                 if len(data) > 0:
                     dict_stats[site][hkd][pid] = int(
