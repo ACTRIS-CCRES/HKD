@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """Script to create stats table for all CHM15k stations."""
 
+import json
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -9,8 +10,6 @@ import click
 import numpy as np
 import pandas as pd
 from influxdb_client import InfluxDBClient
-
-from grafana.base import GrafanaAPI
 
 from utils import influxdb, utils
 
@@ -78,29 +77,25 @@ def grafana(verbose: str) -> None:
         dir_okay=False,
         resolve_path=True,
         path_type=Path,
-    )
+    ),
 )
-
-
-
 def stats(config_file: Path, output_json: str) -> None:
     """Compute statistics on housekeeping variables from Grafana data."""
-
     logger.info("Computing statistics for housekeeping data...")
 
     # Read config file
     config = utils.read_conf(config_file)
 
     # Read list of HKDS to monitor
-    hkds = config["hkds"]
-    hkds = hkds["hkds"]
+    hkds = config["hkds"]["chm15k"]["param"]
 
     # Compute statistics
-    stats_df  = compute_statistics(config, hkds)
+    stats_df = compute_statistics(config, hkds)
 
     # Save as json file
-    stats_df.to_json(output_json)
-    logger.info(f"Statistics saved in {output_json}")
+    with open(output_json, "w") as fichier: # noqa : PTH123
+        json.dump(stats_df, fichier, indent=4)
+    logger.info("Statistics saved in %s", output_json)
 
     return 0
 
@@ -115,7 +110,7 @@ def compute_statistics(config: dict, hkds: list[str]) -> pd.DataFrame:
         org=influx_config["org"],
         enable_gzip=True,
         debug=True,
-    ) 
+    )
     query_api = client.query_api()
 
     # CCRES stations
@@ -133,37 +128,37 @@ def compute_statistics(config: dict, hkds: list[str]) -> pd.DataFrame:
         bucket=influx_config["bucket"],
         tag="site_id",
     )
-    
+
     logger.info(
         "%d CCRES stations: %s",
         len(list_ccres_sites),
         ", ".join(list_ccres_sites),
     )
-    sites = list_ccres_sites[:3]
 
     # Dates to get the last month
-    now = datetime.now() # noqa: DTZ005
+    now = datetime.now()  # noqa: DTZ005
     first_day_this_month = now.replace(day=1)
     last_day_last_month = first_day_this_month - timedelta(days=1)
     first_day_last_month = last_day_last_month.replace(day=1)
     start_of_last_month = first_day_last_month.strftime("%Y-%m-%dT00:00:00Z")
     end_of_last_month = last_day_last_month.strftime("%Y-%m-%dT23:59:59Z")
 
-    df_all = pd.DataFrame()
+    dict_site = {}
 
-    for site in sites:
+    for site in list_ccres_sites:
         logger.info(
             "station %s",
             site,
         )
-        df = pd.DataFrame()
+        dict_site[site] = {}
         for hkd in hkds:
             logger.info(
                 "hkd %s",
                 hkd,
             )
+            dict_site[site][hkd] = {}
             query = f"""
-                from(bucket: "{influx_config['bucket']}")
+                from(bucket: "{influx_config["bucket"]}")
                   |> range(start: {start_of_last_month}, stop: {end_of_last_month})
                   |> filter(fn: (r) => r["_measurement"] == "housekeeping")
                   |> filter(fn: (r) => r["instrument_id"] == "chm15k")
@@ -174,70 +169,62 @@ def compute_statistics(config: dict, hkds: list[str]) -> pd.DataFrame:
             data = query_api.query_data_frame(query=query)
 
             if len(data) > 0:
-                logger.info("DATA IS NOT EMPTY")
                 data = data.reset_index()
-                data.drop(['instrument_pid', 'result', 'table', '_measurement', 'instrument_id', '_start', '_stop', 'site_id'], axis=1, inplace=True, errors="ignore")
-                data.set_index(data["_time"], inplace=True)
-                data.drop(['_time'], axis=1, inplace=True, errors="ignore")
-                data = data.resample("1h").mean()
-                df = pd.concat([df, data])
+                data = data.drop(
+                    [
+                        "result",
+                        "table",
+                        "_measurement",
+                        "instrument_id",
+                        "_start",
+                        "_stop",
+                        "site_id",
+                    ],
+                    axis=1)
 
-        if len(df) > 0:
-            df["site_id"] = site
-            df_all = pd.concat([df_all, df])
+                # check if several instrument PID ie multiple instruments of same type
+                list_instrument_pid = pd.unique(data.instrument_pid)
+                for pid in list_instrument_pid :
+                    data = data[data.instrument_pid == pid]
+                    data = data.drop("instrument_pid", axis=1)
+                    data = data.set_index(data["_time"])
+                    data = data.drop(["_time"], axis=1)
+                    data = data.resample("1h").mean()
+                    dict_site[site][hkd][pid] = data
 
 
-    if len(df_all) == 0:
+    if len(dict_site) == 0:
         logger.warning("No data found for the given period.")
         return pd.DataFrame()
 
-
-
     # Get statistics
     # ----------------------------------------------------------------------------------
-    stats = pd.DataFrame()
-    dict_stats = {}
-    
-    for site in sites:
-        cond_site = df_all["site_id"] == site
 
-        for hkd in hkds :
-            logger.info(
-                "hkd %s",
-                hkd,
-            )
-            #logger.info("condition stats = %s", config["stats_thresh"][hkd])
-            cond_hkd = df_all[hkd] > config["stats_thresh"][hkd]
-            if len(df_all[cond_site & (df_all[hkd] >= 0)]) > 0:
-                dict_stats[hkd] = int(100. * len(df_all[cond_site & cond_hkd]) / len(df_all[cond_site & (df_all[hkd] >= 0)]))
-            else :
-                dict_stats[hkd] = np.nan
-            
-            
+    dict_stats = dict_site.copy()
 
+    for site, site_data in dict_site.items():
+        for hkd, hkd_data in site_data.items():
+            for pid, data in hkd_data.items():
 
-        #stats_list = [
-        #    optical_quality_stat,
-        #    laser_quality_stat,
-        #    detector_quality_stat,
-        #    windows_contaminated_warning_stat,
-        #    signal_quality_warning_stat,
-        #]
-        #stats[site] = stats_list
+                cond_hkd = (data[hkd] > config["hkds"]["chm15k"]["stats_thresh"][hkd])
+                logger.info(config["hkds"]["chm15k"]["stats_thresh"][hkd])
+                logger.info(cond_hkd)
+                logger.info(data[hkd])
+                logger.info(type(data))
+
+                if len(data) > 0:
+                    dict_stats[site][hkd][pid] = int(
+                        100.0
+                        * len(data[cond_hkd])
+                        / len(data[(data[hkd] >= 0)]),
+                                        )
+                else:
+                    dict_stats[site][hkd][pid] = np.nan
 
 
-        stats_temp = pd.DataFrame.from_dict(dict_stats, orient="index", columns=[site])
-        stats = pd.concat([stats, stats_temp], axis=1)
-        logger.info(stats)
-
-        #stats = stats.rename(index={0: 'optical quality', 1: 'laser quality', 2: 'detector quality', 3: 'windows contaminated', 4: 'signal quality'})
-
-
-    return stats
-
-
+    return dict_stats
 
 
 # Point d'entrée principal
 if __name__ == "__main__":
-    grafana() 
+    grafana()
