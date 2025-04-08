@@ -1,6 +1,6 @@
 {
   "station": "lindenberg",
-  "last_update": "2025-03-28",
+  "last_update": "2025-04-08",
   "instruments": [
     {
       "id": "radiometrics",
@@ -61,6 +61,11 @@
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.ffb25f43330f4793",
       "name": "DWD weather station"
+    },
+    {
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.b517b9f95c014893",
+      "name": "UW BASTA"
     }
   ]
 }
