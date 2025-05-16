@@ -1,6 +1,6 @@
 {
   "station": "ny-alesund",
-  "last_update": "2025-04-08",
+  "last_update": "2025-05-16",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -26,6 +26,16 @@
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.f7d44dc886a94542",
       "name": "Uni K\u00f6ln RPG-FMCW-94-SP (JOYRAD-94)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.b4c99d3b8b344a22",
+      "name": "UoC Parsivel\u00b2"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f7d44dc886a94542",
+      "name": "UoC RPG-FMCW-94-SP (JOYRAD-94)"
     }
   ]
 }

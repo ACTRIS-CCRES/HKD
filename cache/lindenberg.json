@@ -1,6 +1,6 @@
 {
   "station": "lindenberg",
-  "last_update": "2025-04-08",
+  "last_update": "2025-05-16",
   "instruments": [
     {
       "id": "radiometrics",
@@ -66,6 +66,16 @@
       "id": "basta",
       "pid": "https://hdl.handle.net/21.12132/3.b517b9f95c014893",
       "name": "UW BASTA"
+    },
+    {
+      "id": "radiometrics",
+      "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
+      "name": "DWD MP-3263A"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.e5ef4b0556c04aa9",
+      "name": "DWD HATPRO-G5"
     }
   ]
 }

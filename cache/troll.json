@@ -1,6 +1,6 @@
 {
   "station": "troll",
-  "last_update": "2025-04-08",
+  "last_update": "2025-05-16",
   "instruments": [
     {
       "id": "hatpro",
@@ -19,6 +19,11 @@
     },
     {
       "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.0dfb3bc9828048c5",
+      "name": "NPI LHATPRO-G5"
+    },
+    {
+      "id": "lhatpro",
       "pid": "https://hdl.handle.net/21.12132/3.0dfb3bc9828048c5",
       "name": "NPI LHATPRO-G5"
     }

@@ -1,6 +1,6 @@
 {
   "station": "leipzig",
-  "last_update": "2025-04-08",
+  "last_update": "2025-05-16",
   "instruments": [
     {
       "id": "pollyxt",
@@ -66,6 +66,11 @@
       "id": "thies-precipitation-transmitter",
       "pid": "https://hdl.handle.net/21.12132/3.7cfaf3252c45451d",
       "name": "TROPOS Precipitation Transmitter (LACROS)"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.969bae90fd044896",
+      "name": "TROPOS HATPRO-G2 (LACROS)"
     }
   ]
 }

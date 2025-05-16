@@ -1,6 +1,6 @@
 {
   "station": "limassol",
-  "last_update": "2025-04-08",
+  "last_update": "2025-05-16",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -31,6 +31,11 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.33ef1f084a964bff",
       "name": "ECoE HATPRO-G5"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.ef692a4fb6fc4c8f",
+      "name": "DoM weather station (TEPAK)"
     }
   ]
 }

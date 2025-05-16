@@ -1,6 +1,6 @@
 {
   "station": "palaiseau",
-  "last_update": "2025-04-08",
+  "last_update": "2025-05-16",
   "instruments": [
     {
       "id": "hatpro",
@@ -41,6 +41,11 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.770aaf228a974dd6",
       "name": "IPSL HATPRO-G5"
+    },
+    {
+      "id": "wls400s",
+      "pid": "https://hdl.handle.net/21.12132/3.455010e11c0545ae",
+      "name": "IPSL/CNRS WLS400S"
     }
   ]
 }

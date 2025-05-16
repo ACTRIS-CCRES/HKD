@@ -1,6 +1,6 @@
 {
   "station": "juelich",
-  "last_update": "2025-04-08",
+  "last_update": "2025-05-16",
   "instruments": [
     {
       "id": "chm15k",
@@ -66,6 +66,56 @@
       "id": "ct25k",
       "pid": "https://hdl.handle.net/21.12132/3.9a9061d587e24dc8",
       "name": "Uni K\u00f6ln CT25K"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.726b3b29de1949cc",
+      "name": "UoC weather station"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.0366fa69504f4bd6",
+      "name": "UoC MIRA-35S (JOYRAD-35)"
+    },
+    {
+      "id": "ct25k",
+      "pid": "https://hdl.handle.net/21.12132/3.9a9061d587e24dc8",
+      "name": "UoC CT25K"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f7e002664a7a4e4e",
+      "name": "UoC RPG-FMCW-94-DP-S (JOYDURADO-94)"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.324507c6ce8e489c",
+      "name": "UoC CHM 15k"
+    },
+    {
+      "id": "pluvio",
+      "pid": "https://hdl.handle.net/21.12132/3.49ca09deca9a4e3e",
+      "name": "UoC Pluvio\u00b2"
+    },
+    {
+      "id": "lhumpro",
+      "pid": "https://hdl.handle.net/21.12132/3.549c7e76ad4d4a10",
+      "name": "UoC LHUMPRO-U90-G5"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.f51736b5923b483c",
+      "name": "UoC HATPRO-G5 (JOYHAT)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.2a1ca46ed70c4929",
+      "name": "UoC Parsivel\u00b2"
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.cd8c566efe7346e0",
+      "name": "UoC RPG-FMCW-35-DP-S (JOYDURADO-35)"
     }
   ]
 }
