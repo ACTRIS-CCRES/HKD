@@ -1,0 +1,26 @@
+{
+  "station": "laquila",
+  "last_update": "2025-07-13",
+  "instruments": [
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.507d92bf5fc94338",
+      "name": "UnivAQ CL51"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.b7813902db9d42e4",
+      "name": "UnivAQ RPG-FMCW-94-DP"
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.7cd404bd07d74e93",
+      "name": "UnivAQ LPM"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.7c1c718f6e63439f",
+      "name": "UnivAQ Vantage Vue"
+    }
+  ]
+}

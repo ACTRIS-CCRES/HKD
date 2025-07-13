@@ -1,0 +1,36 @@
+{
+  "station": "schneefernerhaus",
+  "last_update": "2025-07-13",
+  "instruments": [
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.3b159f9ee29544e9",
+      "name": "LMU HATPRO-G4"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.30d4d1ff4bb843ca",
+      "name": "UoC HATPRO-G1 (SUNHAT)"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
+      "name": "UFS CHM 15k-x"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.814e6693acda4ba9",
+      "name": "UFS MIRA-35C"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.81201c9ea7f54352",
+      "name": "UFS HATPRO-G1 (SNOHAT)"
+    },
+    {
+      "id": "chm15kx",
+      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
+      "name": "UFS CHM 15k-x"
+    }
+  ]
+}
