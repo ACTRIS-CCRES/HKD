@@ -29,6 +29,7 @@ LOG_FMT = logging.Formatter(
     "%(asctime)s - %(levelname)s - %(message)s",
     datefmt="%Y-%m-%dT%H:%M:%S",
 )
+UID_MAX_STRING_LENGTH = 40
 
 logger = logging.getLogger(__name__)
 logger_root = logging.getLogger()
@@ -173,6 +174,12 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
             dashboard_uid = (
                 f"ccres-{instrument.id.replace('-', '')}-hkd-{site_id}-{pid_short}"
             )
+            if len(dashboard_uid) > UID_MAX_STRING_LENGTH:
+                dashboard_uid = dashboard_uid[:UID_MAX_STRING_LENGTH]
+                logger.warning(
+                    "Dashboard UID was too long. Stripping it to %d",
+                    UID_MAX_STRING_LENGTH,
+                )
             logger.debug("Dashboard template: %s", dashboard_tmpl)
 
             # replace tags in dashboard template
