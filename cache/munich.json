@@ -1,6 +1,6 @@
 {
   "station": "munich",
-  "last_update": "2025-07-13",
+  "last_update": "2025-08-19",
   "instruments": [
     {
       "id": "mira-35",
@@ -46,6 +46,11 @@
       "id": "mira-10",
       "pid": "https://hdl.handle.net/21.12132/3.d607bf23350b479f",
       "name": "LMU MIRA-10 (X-MACS)"
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.8584159a7b3a4545",
+      "name": "LMU CHM 15k"
     }
   ]
 }
