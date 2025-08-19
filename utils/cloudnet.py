@@ -78,9 +78,9 @@ class CloudnetAPI:
 
         unique_instruments = {
             (
-                file["instrumentId"],
-                file["instrumentPid"],
-                file["instrumentInfo"]["name"],
+                file["instrument"]["instrumentId"],
+                file["instrument"]["pid"],
+                file["instrument"]["name"],
             )
             for file in resp.json()
         }
