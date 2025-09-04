@@ -1,6 +1,6 @@
 {
   "station": "maido",
-  "last_update": "2025-08-19",
+  "last_update": "2025-08-31",
   "instruments": [
     {
       "id": "basta",
@@ -16,6 +16,16 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.d7350d66862d4bd3",
       "name": "OSU HATPRO-G5"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.981516412b2c4c73",
+      "name": "LACy Parsivel\u00b2"
+    },
+    {
+      "id": "pluvio",
+      "pid": "https://hdl.handle.net/21.12132/3.00a9fdae6ac84028",
+      "name": "LACy Pluvio\u00b2 L"
     }
   ]
 }

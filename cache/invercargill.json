@@ -1,0 +1,46 @@
+{
+  "station": "invercargill",
+  "last_update": "2025-08-31",
+  "instruments": [
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.f6f3cee4a8014f41",
+      "name": "TROPOS HALO (Skipper)"
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.4cab4fe7d62c406a",
+      "name": "TROPOS CL61 (LACROS)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.fa39ba9928544aae",
+      "name": "TROPOS RPG-FMCW-94-DP"
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.948d8681112b44c3",
+      "name": "TROPOS PollyXT (LACROS2)"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.a217d3ec6e6b47dd",
+      "name": "TROPOS HATPRO-G5 (LACROS)"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.ec09dc9c028c42d1",
+      "name": "TROPOS MIRA-35S (LACROS)"
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.7cfaf3252c45451d",
+      "name": "TROPOS Precipitation Transmitter (LACROS)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.922bd0a8c7f34064",
+      "name": "TROPOS Parsivel\u00b2 (LACROS)"
+    }
+  ]
+}

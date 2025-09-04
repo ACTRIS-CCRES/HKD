@@ -1,6 +1,6 @@
 {
   "station": "granada",
-  "last_update": "2025-08-19",
+  "last_update": "2025-08-31",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -51,6 +51,16 @@
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.eadafa59ffa648de",
       "name": "UGR HALO 102"
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.45ee9a92825c447a",
+      "name": "UGR RPG-FMCW-35-DP (NEBULA)"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.20570e63f7b1496c",
+      "name": "UGR RPG-FMCW-94-DP (NEBULA)"
     }
   ]
 }
