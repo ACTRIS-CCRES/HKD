@@ -1,6 +1,6 @@
 {
   "station": "potenza",
-  "last_update": "2025-08-31",
+  "last_update": "2025-09-22",
   "instruments": [
     {
       "id": "halo-doppler-lidar",

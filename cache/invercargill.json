@@ -1,6 +1,6 @@
 {
   "station": "invercargill",
-  "last_update": "2025-08-31",
+  "last_update": "2025-09-22",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -41,6 +41,11 @@
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.922bd0a8c7f34064",
       "name": "TROPOS Parsivel\u00b2 (LACROS)"
+    },
+    {
+      "id": "chm15kx",
+      "pid": "https://hdl.handle.net/21.12132/3.cd3578e9f68b42c0",
+      "name": "TROPOS CHM 15k-x (LACROS)"
     }
   ]
 }
