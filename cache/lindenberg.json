@@ -1,6 +1,6 @@
 {
   "station": "lindenberg",
-  "last_update": "2025-09-22",
+  "last_update": "2025-10-03",
   "instruments": [
     {
       "id": "radiometrics",
@@ -76,6 +76,11 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.e5ef4b0556c04aa9",
       "name": "DWD HATPRO-G5"
+    },
+    {
+      "id": "da10",
+      "pid": "https://hdl.handle.net/21.12132/3.9c7bcece918642ea",
+      "name": "DWD DIAL DA10"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "station": "juelich",
-  "last_update": "2025-09-22",
+  "last_update": "2025-10-03",
   "instruments": [
     {
       "id": "chm15k",
@@ -116,6 +116,11 @@
       "id": "rpg-fmcw-35",
       "pid": "https://hdl.handle.net/21.12132/3.cd8c566efe7346e0",
       "name": "UoC RPG-FMCW-35-DP-S (JOYDURADO-35)"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.48bd7da035b94ffd",
+      "name": "UoC HALO"
     }
   ]
 }

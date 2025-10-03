@@ -1,6 +1,6 @@
 {
   "station": "maido",
-  "last_update": "2025-09-22",
+  "last_update": "2025-10-03",
   "instruments": [
     {
       "id": "basta",
@@ -26,6 +26,11 @@
       "id": "pluvio",
       "pid": "https://hdl.handle.net/21.12132/3.00a9fdae6ac84028",
       "name": "LACy Pluvio\u00b2 L"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.5421272f0eb34540",
+      "name": "LACy MetConnect One"
     }
   ]
 }
