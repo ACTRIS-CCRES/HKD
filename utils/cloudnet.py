@@ -24,6 +24,7 @@ class Instrument:
     id: str
     pid: str
     name: str
+    is_nominal: bool = False
 
 
 @dataclass
@@ -45,6 +46,11 @@ class CloudnetAPI:
     def url_raw_files(self) -> str:
         """Get raw files api url."""
         return f"{self.url}/raw-files"
+
+    @property
+    def url_nominal(self) -> str:
+        """Get nominal api url."""
+        return f"{self.url}/nominal-instrument"
 
     def get_actris_sites(self) -> list[str]:
         """Get actris sites."""
@@ -89,6 +95,40 @@ class CloudnetAPI:
             {"id": instrument[0], "pid": instrument[1], "name": instrument[2]}
             for instrument in unique_instruments
         ]
+
+    def is_instrument_nominal(
+        self,
+        instr_pid: str,
+        site_id: str,
+    ) -> bool:
+        """
+        Check if the instrument is nominal.
+
+        Parameters
+        ----------
+        instr_pid : str
+            Instrument actris pid.
+        site_id : str
+            Station actris id.
+
+        Returns
+        -------
+        bool
+            True if nominal, False otherwise.
+
+        """
+        date = dt.datetime.now(dt.UTC).strftime(DATE_FMT)
+
+        url = f"{self.url_nominal}/?&site={site_id}&date={date}"
+        resp = requests.get(url, timeout=TIMEOUT)
+        if resp.status_code not in HTTP_OK:
+            msg = f"ERROR getting nominal instruments for {site_id}: {resp.status_code}, {resp.text}"  # noqa: E501
+            raise requests.exceptions.HTTPError(msg)
+
+        # get list of pids
+        nominal_pids = [instr["nominalInstrument"]["pid"] for instr in resp.json()]
+
+        return instr_pid in nominal_pids
 
 
 @dataclass

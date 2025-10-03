@@ -155,11 +155,17 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
             if instr and instrument.id not in instr:
                 continue
 
+            instrument.is_nominal = cloudnet.CloudnetAPI().is_instrument_nominal(
+                instrument.pid,
+                site_id,
+            )
+
             logger.info(
-                "Processing instrument: %s, %s, %s",
+                "Processing instrument: %s, %s, %s, nominal: %s",
                 instrument.id,
                 instrument.pid,
                 instrument.name,
+                instrument.is_nominal,
             )
             pid_short = utils.short_pid(instrument.pid)
 
@@ -208,6 +214,10 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
                 folders_uid[site_id] = grafana.create_folder(site_id)
             else:
                 logger.info("Folder %s already exists", site_id)
+
+            # add nominal tag if instrument is nominal
+            if instrument.is_nominal:
+                dashboard["tags"].append("nominal")
 
             # create dashboard
             logger.info("dashboard UID: %s", dashboard_uid)
