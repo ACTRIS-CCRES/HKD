@@ -193,6 +193,8 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
                 "{{instrument_name}}": instrument.name,
             }
 
+            logger.debug("Tags to replace: %s", tags_to_replace)
+
             dashboard = utils.create_dashboard_from_tmpl(
                 dashboard_path,
                 tags_to_replace,
@@ -209,7 +211,7 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
 
             # create dashboard
             logger.info("dashboard UID: %s", dashboard_uid)
-            grafana.create_dashboard(dashboard, folder_uid=folders_uid[site_id])
+            # grafana.create_dashboard(dashboard, folder_uid=folders_uid[site_id])
 
     return 0
 

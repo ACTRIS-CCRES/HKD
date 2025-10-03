@@ -754,7 +754,9 @@
     ],
     "preload": false,
     "schemaVersion": 41,
-    "tags": [],
+    "tags": [
+        "{{instrument_id}}"
+    ],
     "templating": {
         "list": []
     },
