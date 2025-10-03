@@ -211,7 +211,7 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
 
             # create dashboard
             logger.info("dashboard UID: %s", dashboard_uid)
-            # grafana.create_dashboard(dashboard, folder_uid=folders_uid[site_id])
+            grafana.create_dashboard(dashboard, folder_uid=folders_uid[site_id])
 
     return 0
 
