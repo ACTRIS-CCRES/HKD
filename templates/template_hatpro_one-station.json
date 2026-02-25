@@ -18,6 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
+  "id": 0,
   "links": [],
   "panels": [
     {
@@ -54,6 +55,7 @@
               "type": "linear"
             },
             "showPoints": "auto",
+            "showValues": false,
             "spanNulls": false,
             "stacking": {
               "group": "A",
@@ -69,7 +71,7 @@
             "steps": [
               {
                 "color": "green",
-                "value": null
+                "value": 0
               },
               {
                 "color": "red",
@@ -101,7 +103,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "11.5.0",
+      "pluginVersion": "12.3.1",
       "targets": [
         {
           "alias": "ambient target 1",
@@ -152,7 +154,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -212,7 +214,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -272,6 +274,7 @@
               "type": "linear"
             },
             "showPoints": "auto",
+            "showValues": false,
             "spanNulls": false,
             "stacking": {
               "group": "A",
@@ -287,7 +290,7 @@
             "steps": [
               {
                 "color": "green",
-                "value": null
+                "value": 0
               },
               {
                 "color": "red",
@@ -332,7 +335,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "11.5.0",
+      "pluginVersion": "12.3.1",
       "targets": [
         {
           "alias": "temperature receiver",
@@ -383,7 +386,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -443,7 +446,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -491,6 +494,7 @@
               "type": "linear"
             },
             "showPoints": "auto",
+            "showValues": false,
             "spanNulls": false,
             "stacking": {
               "group": "A",
@@ -506,7 +510,7 @@
             "steps": [
               {
                 "color": "green",
-                "value": null
+                "value": 0
               },
               {
                 "color": "red",
@@ -551,7 +555,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "11.5.0",
+      "pluginVersion": "12.3.1",
       "targets": [
         {
           "alias": "temperature receiver",
@@ -602,7 +606,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -662,7 +666,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -693,7 +697,7 @@
             "steps": [
               {
                 "color": "dark-red",
-                "value": null
+                "value": 0
               },
               {
                 "color": "green",
@@ -729,9 +733,10 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.5.0",
+      "pluginVersion": "12.3.1",
       "targets": [
         {
+          "alias": "memory",
           "datasource": {
             "type": "influxdb",
             "uid": "{{influx_ql_uid}}"
@@ -779,7 +784,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -803,9 +808,307 @@
       "fieldConfig": {
         "defaults": {
           "color": {
+            "fixedColor": "dark-red",
             "mode": "fixed"
           },
           "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "points",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "showValues": false,
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "decimals": 3,
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "dark-red",
+                "value": 0
+              }
+            ]
+          },
+          "unit": "degree"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 12,
+        "x": 0,
+        "y": 14
+      },
+      "id": 8,
+      "options": {
+        "legend": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.3.1",
+      "targets": [
+        {
+          "alias": "latitude",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "gps_latitude"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "hatpro"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "Latitude",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "fixedColor": "dark-red",
+            "mode": "fixed"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "points",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "showValues": false,
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "decimals": 3,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "dark-red",
+                "value": 0
+              }
+            ]
+          },
+          "unit": "degree"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 12,
+        "x": 12,
+        "y": 14
+      },
+      "id": 9,
+      "options": {
+        "legend": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.3.1",
+      "targets": [
+        {
+          "alias": "longitude",
+          "datasource": {
+            "type": "influxdb",
+            "uid": "{{influx_ql_uid}}"
+          },
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "housekeeping",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "gps_longitude"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "site_id::tag",
+              "operator": "=",
+              "value": "{{site_id}}"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_id::tag",
+              "operator": "=",
+              "value": "hatpro"
+            },
+            {
+              "condition": "AND",
+              "key": "instrument_pid::tag",
+              "operator": "=",
+              "value": "{{pid}}"
+            }
+          ]
+        }
+      ],
+      "title": "Longitude",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "{{influx_ql_uid}}"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "fixed"
+          },
+          "custom": {
+            "axisPlacement": "auto",
             "fillOpacity": 70,
             "hideFrom": {
               "legend": false,
@@ -837,7 +1140,7 @@
             "steps": [
               {
                 "color": "green",
-                "value": null
+                "value": 0
               }
             ]
           }
@@ -1073,7 +1376,7 @@
         "h": 10,
         "w": 24,
         "x": 0,
-        "y": 14
+        "y": 21
       },
       "id": 1,
       "options": {
@@ -1092,7 +1395,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "11.5.0",
+      "pluginVersion": "12.3.1",
       "targets": [
         {
           "alias": "Rain",
@@ -1137,19 +1440,19 @@
             {
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
               "key": "site_id::tag",
               "operator": "=",
-              "value": "{{site_id}}"
+              "value": "palaiseau"
             },
             {
               "condition": "AND",
               "key": "instrument_pid::tag",
               "operator": "=",
-              "value": "{{pid}}"
+              "value": "https://hdl.handle.net/21.12132/3.770aaf228a974dd6"
             }
           ]
         },
@@ -1203,7 +1506,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1263,7 +1566,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1323,7 +1626,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1383,7 +1686,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1443,7 +1746,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1503,7 +1806,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1563,7 +1866,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1590,6 +1893,7 @@
             "mode": "fixed"
           },
           "custom": {
+            "axisPlacement": "auto",
             "fillOpacity": 70,
             "hideFrom": {
               "legend": false,
@@ -1623,7 +1927,7 @@
             "steps": [
               {
                 "color": "red",
-                "value": null
+                "value": 0
               },
               {
                 "color": "green",
@@ -1638,7 +1942,7 @@
         "h": 8,
         "w": 12,
         "x": 0,
-        "y": 24
+        "y": 31
       },
       "id": 3,
       "options": {
@@ -1657,7 +1961,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "11.5.0",
+      "pluginVersion": "12.3.1",
       "targets": [
         {
           "alias": "1",
@@ -1708,7 +2012,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1768,7 +2072,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1828,7 +2132,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1888,7 +2192,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -1948,7 +2252,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2008,7 +2312,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2068,7 +2372,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2128,7 +2432,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2188,7 +2492,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2215,6 +2519,7 @@
             "mode": "fixed"
           },
           "custom": {
+            "axisPlacement": "auto",
             "fillOpacity": 70,
             "hideFrom": {
               "legend": false,
@@ -2248,7 +2553,7 @@
             "steps": [
               {
                 "color": "red",
-                "value": null
+                "value": 0
               },
               {
                 "color": "green",
@@ -2263,7 +2568,7 @@
         "h": 8,
         "w": 12,
         "x": 12,
-        "y": 24
+        "y": 31
       },
       "id": 2,
       "options": {
@@ -2282,7 +2587,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "11.5.0",
+      "pluginVersion": "12.3.1",
       "targets": [
         {
           "alias": "1",
@@ -2333,7 +2638,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2393,7 +2698,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2453,7 +2758,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2513,7 +2818,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2573,7 +2878,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2633,7 +2938,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2693,7 +2998,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2753,7 +3058,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2813,7 +3118,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "{{instrument_id}}"
+              "value": "hatpro"
             },
             {
               "condition": "AND",
@@ -2831,7 +3136,7 @@
   ],
   "preload": false,
   "refresh": "30m",
-  "schemaVersion": 40,
+  "schemaVersion": 42,
   "tags": [
     "{{instrument_id}}"
   ],
