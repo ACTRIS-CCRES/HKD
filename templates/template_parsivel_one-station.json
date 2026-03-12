@@ -152,7 +152,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
@@ -300,7 +300,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
@@ -447,7 +447,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
@@ -507,7 +507,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
@@ -567,7 +567,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
@@ -627,7 +627,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
@@ -805,7 +805,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
@@ -865,7 +865,7 @@
               "condition": "AND",
               "key": "instrument_id::tag",
               "operator": "=",
-              "value": "hatpro"
+              "value": "parsivel"
             },
             {
               "condition": "AND",
