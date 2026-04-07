@@ -1,31 +1,78 @@
 {
   "station": "potenza",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.31a1d1e9694f47bd",
-      "name": "CNR HALO"
+      "name": "CNR HALO",
+      "is_nominal": false
     },
     {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.a150e648f86847a5",
-      "name": "CNR MIRA-35S"
+      "name": "CNR MIRA-35S",
+      "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.5f33c2febc654f4b",
-      "name": "CNR HATPRO-G5"
+      "name": "CNR HATPRO-G5",
+      "is_nominal": false
     },
     {
       "id": "mrr-pro",
       "pid": "https://hdl.handle.net/21.12132/3.289f5d0e2aaa466f",
-      "name": "CNR MRR-PRO"
+      "name": "CNR MRR-PRO",
+      "is_nominal": false
     },
     {
       "id": "cl51",
       "pid": "https://hdl.handle.net/21.12132/3.7133f30865bc4781",
-      "name": "CNR CL51"
+      "name": "CNR CL51",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.1827e88860ee4512",
+      "name": "CNR AWS310",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.741357cad2d0434a",
+      "name": "CNR Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.289f5d0e2aaa466f",
+      "name": "CNR MRR-PRO",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.741357cad2d0434a",
+      "name": "CNR Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.7133f30865bc4781",
+      "name": "CNR CL51",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.1827e88860ee4512",
+      "name": "CNR AWS310",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.a150e648f86847a5",
+      "name": "CNR MIRA-35S",
+      "is_nominal": false
     }
   ]
 }

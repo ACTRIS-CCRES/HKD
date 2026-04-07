@@ -1,5 +1,90 @@
 {
   "station": "melpitz",
-  "last_update": "2024-11-28",
-  "instruments": []
+  "last_update": "2026-04-05",
+  "instruments": [
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.75d6aaafbf1a461d",
+      "name": "TROPOS CHM 15k (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.7ddef75d7fee4dba",
+      "name": "TROPOS MIRA-35 (MBR9 Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
+      "name": "TROPOS PollyXT (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.b47a3d0b8a4c4861",
+      "name": "TROPOS HATPRO-G5 (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.7002e439db134203",
+      "name": "TROPOS Parsivel\u00b2 (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.38842be0adc64752",
+      "name": "TROPOS Precipitation Transmitter (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.be50699171b24e17",
+      "name": "TROPOS HALO (Shaun)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.7002e439db134203",
+      "name": "TROPOS Parsivel\u00b2 (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.75d6aaafbf1a461d",
+      "name": "TROPOS CHM 15k (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
+      "name": "TROPOS PollyXT (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.38842be0adc64752",
+      "name": "TROPOS Precipitation Transmitter (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.7ddef75d7fee4dba",
+      "name": "TROPOS MIRA-35 (MBR9 Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.be50699171b24e17",
+      "name": "TROPOS HALO (Shaun)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.b47a3d0b8a4c4861",
+      "name": "TROPOS HATPRO-G5 (Melpitz)",
+      "is_nominal": false
+    }
+  ]
 }

@@ -1,41 +1,90 @@
 {
   "station": "limassol",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.a5e937a2d7e64283",
-      "name": "ECoE HALO (Snoopy)"
+      "name": "ECoE HALO (Snoopy)",
+      "is_nominal": false
     },
     {
       "id": "pollyxt",
       "pid": "https://hdl.handle.net/21.12132/3.055aa99bd53c4163",
-      "name": "ECoE PollyXT-CYP"
+      "name": "ECoE PollyXT-CYP",
+      "is_nominal": false
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.d7b65c4b72b6432d",
-      "name": "ECoE CHM 15k"
+      "name": "ECoE CHM 15k",
+      "is_nominal": false
     },
     {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.41582c4957f444b3",
-      "name": "ECoE Parsivel\u00b2"
+      "name": "ECoE Parsivel\u00b2",
+      "is_nominal": false
     },
     {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.9af43f93e39649f5",
-      "name": "ECoE MIRA-35"
+      "name": "ECoE MIRA-35",
+      "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.33ef1f084a964bff",
-      "name": "ECoE HATPRO-G5"
+      "name": "ECoE HATPRO-G5",
+      "is_nominal": false
     },
     {
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.ef692a4fb6fc4c8f",
-      "name": "DoM weather station (TEPAK)"
+      "name": "DoM weather station (TEPAK)",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.9af43f93e39649f5",
+      "name": "ECoE MIRA-35",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.ef692a4fb6fc4c8f",
+      "name": "DoM weather station (TEPAK)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.41582c4957f444b3",
+      "name": "ECoE Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.055aa99bd53c4163",
+      "name": "ECoE PollyXT-CYP",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.d7b65c4b72b6432d",
+      "name": "ECoE CHM 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.33ef1f084a964bff",
+      "name": "ECoE HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.a5e937a2d7e64283",
+      "name": "ECoE HALO (Snoopy)",
+      "is_nominal": false
     }
   ]
 }

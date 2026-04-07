@@ -1,11 +1,18 @@
 {
   "station": "moufia",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "basta",
       "pid": "https://hdl.handle.net/21.12132/3.b84a8d634d944345",
-      "name": "OSU BASTA mini"
+      "name": "OSU BASTA mini",
+      "is_nominal": false
+    },
+    {
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.b84a8d634d944345",
+      "name": "OSU BASTA mini",
+      "is_nominal": false
     }
   ]
 }

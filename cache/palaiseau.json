@@ -1,51 +1,114 @@
 {
   "station": "palaiseau",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.b8909443cad240fc",
-      "name": "IPSL HATPRO-G2"
+      "name": "IPSL HATPRO-G2",
+      "is_nominal": false
     },
     {
       "id": "thies-lnm",
       "pid": "https://hdl.handle.net/21.12132/3.11d3217867474e22",
-      "name": "IPSL/CNRS LPM"
+      "name": "IPSL/CNRS LPM",
+      "is_nominal": false
     },
     {
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.739041931dac4de5",
-      "name": "IPSL weather station"
+      "name": "IPSL weather station",
+      "is_nominal": false
     },
     {
       "id": "wls70",
       "pid": "https://hdl.handle.net/21.12132/3.d5ee0db6ac964a04",
-      "name": "CEREA WLS70"
+      "name": "CEREA WLS70",
+      "is_nominal": false
     },
     {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.7e13f3f243854ae8",
-      "name": "IPSL Parsivel\u00b2"
+      "name": "IPSL Parsivel\u00b2",
+      "is_nominal": false
     },
     {
       "id": "basta",
       "pid": "https://hdl.handle.net/21.12132/3.643b7b5b43814e6f",
-      "name": "IPSL BASTA"
+      "name": "IPSL BASTA",
+      "is_nominal": false
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.b14e15ec9c9b43fb",
-      "name": "IPSL CHM 15k"
+      "name": "IPSL CHM 15k",
+      "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.770aaf228a974dd6",
-      "name": "IPSL HATPRO-G5"
+      "name": "IPSL HATPRO-G5",
+      "is_nominal": false
     },
     {
       "id": "wls400s",
       "pid": "https://hdl.handle.net/21.12132/3.455010e11c0545ae",
-      "name": "IPSL/CNRS WLS400S"
+      "name": "IPSL/CNRS WLS400S",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.9b914f8c94c4438a",
+      "name": "IPSL CHM 15K (2021)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.9b914f8c94c4438a",
+      "name": "IPSL CHM 15k (2021)",
+      "is_nominal": false
+    },
+    {
+      "id": "wls400s",
+      "pid": "https://hdl.handle.net/21.12132/3.455010e11c0545ae",
+      "name": "IPSL/CNRS WLS400S",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.7e13f3f243854ae8",
+      "name": "IPSL Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.9b914f8c94c4438a",
+      "name": "IPSL CHM 15k (2021)",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.739041931dac4de5",
+      "name": "IPSL weather station",
+      "is_nominal": false
+    },
+    {
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.643b7b5b43814e6f",
+      "name": "IPSL BASTA",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.770aaf228a974dd6",
+      "name": "IPSL HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.b14e15ec9c9b43fb",
+      "name": "IPSL CHM 15k",
+      "is_nominal": false
     }
   ]
 }

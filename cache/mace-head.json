@@ -1,21 +1,36 @@
 {
   "station": "mace-head",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.5c5f8816d6834041",
-      "name": "NUIG HATPRO-G1"
+      "name": "NUIG HATPRO-G1",
+      "is_nominal": false
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.5c5d0a39d2cd403d",
-      "name": "NUIG CMH 15k"
+      "name": "NUIG CMH 15k",
+      "is_nominal": false
     },
     {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.c40d96c09cff4e79",
-      "name": "NUIG MIRA-35"
+      "name": "NUIG MIRA-35",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.5c5d0a39d2cd403d",
+      "name": "NUIG CMH 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.5c5f8816d6834041",
+      "name": "NUIG HATPRO-G1",
+      "is_nominal": false
     }
   ]
 }

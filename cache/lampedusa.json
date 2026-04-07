@@ -1,31 +1,72 @@
 {
   "station": "lampedusa",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.49884fea4fde4ddd",
-      "name": "ENEA MIRA-35C"
+      "name": "ENEA MIRA-35C",
+      "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.6415e5400cf7468e",
-      "name": "ENEA HATPRO-G5"
+      "name": "ENEA HATPRO-G5",
+      "is_nominal": false
     },
     {
       "id": "thies-lnm",
       "pid": "https://hdl.handle.net/21.12132/3.4e7765c0c8bd4d1d",
-      "name": "ENEA LPM"
+      "name": "ENEA LPM",
+      "is_nominal": false
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.a5d479cd32a14a88",
-      "name": "ENEA CHM 15k"
+      "name": "ENEA CHM 15k",
+      "is_nominal": false
     },
     {
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.5881321c3c4948ca",
-      "name": "ENEA AWS310"
+      "name": "ENEA AWS310",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.49884fea4fde4ddd",
+      "name": "ENEA MIRA-35C (MBC8)",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.49884fea4fde4ddd",
+      "name": "ENEA MIRA-35C (MBC8)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.a5d479cd32a14a88",
+      "name": "ENEA CHM 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.5881321c3c4948ca",
+      "name": "ENEA AWS310",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.4e7765c0c8bd4d1d",
+      "name": "ENEA LPM",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.6415e5400cf7468e",
+      "name": "ENEA HATPRO-G5",
+      "is_nominal": false
     }
   ]
 }

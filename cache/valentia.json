@@ -1,0 +1,12 @@
+{
+  "station": "valentia",
+  "last_update": "2025-11-02",
+  "instruments": [
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.793a6a599d3948ab",
+      "name": "Met \u00c9ireann HATPRO-G5",
+      "is_nominal": false
+    }
+  ]
+}

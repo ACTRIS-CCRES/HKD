@@ -1,0 +1,36 @@
+{
+  "station": "campina",
+  "last_update": "2026-04-05",
+  "instruments": [
+    {
+      "id": "rd-80",
+      "pid": "https://hdl.handle.net/21.12132/3.72fb657cb20449fa",
+      "name": "NASA RD-80",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.f3c16fc50e8a4964",
+      "name": "IFUSP CHM 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.8025e920251846da",
+      "name": "IFUSP MIRA-35C (MBC5)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.2966e3f4fb95468f",
+      "name": "INPE Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "radiometrics",
+      "pid": "https://hdl.handle.net/21.12132/3.fd9a03f7c8164acc",
+      "name": "UEA MP-3000A",
+      "is_nominal": false
+    }
+  ]
+}

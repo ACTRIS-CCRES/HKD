@@ -1,0 +1,12 @@
+{
+  "station": "tawhaki",
+  "last_update": "2026-02-15",
+  "instruments": [
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f54a7d7ca3944dec",
+      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)",
+      "is_nominal": false
+    }
+  ]
+}

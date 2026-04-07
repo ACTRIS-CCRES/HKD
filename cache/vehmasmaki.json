@@ -1,21 +1,48 @@
 {
   "station": "vehmasmaki",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.af519eeea2db4a90",
-      "name": "FMI HALO 53"
+      "name": "FMI HALO 53",
+      "is_nominal": false
     },
     {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.3bfbb6e37acc41a3",
-      "name": "FMI MIRA-35S"
+      "name": "FMI MIRA-35S",
+      "is_nominal": false
     },
     {
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.81960b9207554267",
-      "name": "FMI CL61-A"
+      "name": "FMI CL61-A",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.d4a3b0f0f3074c11",
+      "name": "FMI Parsivel\u00b2-B",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.d4a3b0f0f3074c11",
+      "name": "FMI Parsivel\u00b2-B",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.81960b9207554267",
+      "name": "FMI CL61-A",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.3bfbb6e37acc41a3",
+      "name": "FMI MIRA-35S",
+      "is_nominal": false
     }
   ]
 }

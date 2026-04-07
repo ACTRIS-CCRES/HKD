@@ -1,46 +1,102 @@
 {
   "station": "mindelo",
-  "last_update": "2025-10-03",
+  "last_update": "2026-04-05",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.fbf9185dbde345ab",
-      "name": "TROPOS HATPRO-G5 (Mindelo)"
+      "name": "TROPOS HATPRO-G5 (Mindelo)",
+      "is_nominal": false
     },
     {
       "id": "pollyxt",
       "pid": "https://hdl.handle.net/21.12132/3.3b8d6fb7e7e24f1d",
-      "name": "TROPOS PollyXT (cpv)"
+      "name": "TROPOS PollyXT (cpv)",
+      "is_nominal": false
     },
     {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.3809aae6fdb24f61",
-      "name": "TROPOS RPG-FMCW-94-DP (Melpitz)"
+      "name": "TROPOS RPG-FMCW-94-DP (Melpitz)",
+      "is_nominal": false
     },
     {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.738143791c524103",
-      "name": "TROPOS HALO XR (Timmy)"
+      "name": "TROPOS HALO XR (Timmy)",
+      "is_nominal": false
     },
     {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.a5857315ede24789",
-      "name": "TROPOS Parsivel\u00b2 (Mindelo)"
+      "name": "TROPOS Parsivel\u00b2 (Mindelo)",
+      "is_nominal": false
     },
     {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.c98b69a5099a4154",
-      "name": "TROPOS MIRA-35S (MBR7)"
+      "name": "TROPOS MIRA-35S (MBR7)",
+      "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.fbf9185dbde345ab",
-      "name": "TROPOS HATPRO-G5 (Mindelo)"
+      "name": "TROPOS HATPRO-G5 (Mindelo)",
+      "is_nominal": false
     },
     {
       "id": "thies-precipitation-transmitter",
       "pid": "https://hdl.handle.net/21.12132/3.057664d9f5cd46cb",
-      "name": "TROPOS Precipitation Transmitter (Mindelo)"
+      "name": "TROPOS Precipitation Transmitter (Mindelo)",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.dac8781fef3e4536",
+      "name": "TROPOS CL61 (Mindelo)",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.738143791c524103",
+      "name": "TROPOS HALO XR (Timmy)",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.dac8781fef3e4536",
+      "name": "TROPOS CL61 (Mindelo)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.a5857315ede24789",
+      "name": "TROPOS Parsivel\u00b2 (Mindelo)",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.057664d9f5cd46cb",
+      "name": "TROPOS Precipitation Transmitter (Mindelo)",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.3b8d6fb7e7e24f1d",
+      "name": "TROPOS PollyXT (cpv)",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.c98b69a5099a4154",
+      "name": "TROPOS MIRA-35S (MBR7)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.fbf9185dbde345ab",
+      "name": "TROPOS HATPRO-G5 (Mindelo)",
+      "is_nominal": false
     }
   ]
 }

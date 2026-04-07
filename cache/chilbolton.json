@@ -1,31 +1,36 @@
 {
   "station": "chilbolton",
-  "last_update": "2025-10-03",
+  "last_update": "2026-03-15",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.1e2e7ddeeda641e5",
-      "name": "UL HALO"
+      "name": "UL HALO",
+      "is_nominal": false
     },
     {
       "id": "copernicus",
       "pid": "https://hdl.handle.net/21.12132/3.c3e825b4aa71435c",
-      "name": "UKRI Copernicus"
+      "name": "UKRI Copernicus",
+      "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.5f5640d6deb6491d",
-      "name": "UL HATPRO-G5"
+      "name": "UL HATPRO-G5",
+      "is_nominal": false
     },
     {
       "id": "cl51",
       "pid": "https://hdl.handle.net/21.12132/3.1ca2b7d6323f486b",
-      "name": "UKRI CL51"
+      "name": "UKRI CL51",
+      "is_nominal": false
     },
     {
       "id": "galileo",
       "pid": "https://hdl.handle.net/21.12132/3.981da267085b4966",
-      "name": "UKRI Galileo"
+      "name": "UKRI Galileo",
+      "is_nominal": false
     }
   ]
 }
