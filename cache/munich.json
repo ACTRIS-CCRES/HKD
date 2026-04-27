@@ -1,6 +1,6 @@
 {
   "station": "munich",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "mira-35",
@@ -63,9 +63,9 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.8584159a7b3a4545",
-      "name": "LMU CHM 15k",
+      "id": "mira-10",
+      "pid": "https://hdl.handle.net/21.12132/3.d607bf23350b479f",
+      "name": "LMU MIRA-10 (X-MACS)",
       "is_nominal": false
     },
     {
@@ -75,9 +75,21 @@
       "is_nominal": false
     },
     {
-      "id": "mira-10",
-      "pid": "https://hdl.handle.net/21.12132/3.d607bf23350b479f",
-      "name": "LMU MIRA-10 (X-MACS)",
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.fa676e2576644868",
+      "name": "LMU weather station",
+      "is_nominal": false
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.002a1af1dbc143b5",
+      "name": "LMU MRR-PRO",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.fab6c205243949eb",
+      "name": "LMU Parsivel\u00b2",
       "is_nominal": false
     },
     {
@@ -93,21 +105,9 @@
       "is_nominal": false
     },
     {
-      "id": "mrr-pro",
-      "pid": "https://hdl.handle.net/21.12132/3.002a1af1dbc143b5",
-      "name": "LMU MRR-PRO",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.fa676e2576644868",
-      "name": "LMU weather station",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.fab6c205243949eb",
-      "name": "LMU Parsivel\u00b2",
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.8584159a7b3a4545",
+      "name": "LMU CHM 15k",
       "is_nominal": false
     }
   ]

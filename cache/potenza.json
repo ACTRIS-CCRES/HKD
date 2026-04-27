@@ -1,6 +1,6 @@
 {
   "station": "potenza",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -45,12 +45,6 @@
       "is_nominal": false
     },
     {
-      "id": "mrr-pro",
-      "pid": "https://hdl.handle.net/21.12132/3.289f5d0e2aaa466f",
-      "name": "CNR MRR-PRO",
-      "is_nominal": false
-    },
-    {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.741357cad2d0434a",
       "name": "CNR Parsivel\u00b2",
@@ -66,6 +60,18 @@
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.1827e88860ee4512",
       "name": "CNR AWS310",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.31a1d1e9694f47bd",
+      "name": "CNR HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.289f5d0e2aaa466f",
+      "name": "CNR MRR-PRO",
       "is_nominal": false
     },
     {

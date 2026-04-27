@@ -1,6 +1,6 @@
 {
   "station": "ny-alesund",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -45,9 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.f7d44dc886a94542",
-      "name": "UoC RPG-FMCW-94-SP (JOYRAD-94)",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.6fb23021bef04200",
+      "name": "AWI HATPRO-G2",
       "is_nominal": false
     },
     {
@@ -57,9 +57,9 @@
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.6fb23021bef04200",
-      "name": "AWI HATPRO-G2",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f7d44dc886a94542",
+      "name": "UoC RPG-FMCW-94-SP (JOYRAD-94)",
       "is_nominal": false
     },
     {

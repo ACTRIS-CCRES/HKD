@@ -1,6 +1,6 @@
 {
   "station": "galati",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -51,18 +51,6 @@
       "is_nominal": false
     },
     {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.8ca6674ead024d5f",
-      "name": "DJUG weather station",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.079cdfced7a7438e",
-      "name": "DJUG CHM 15k",
-      "is_nominal": false
-    },
-    {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.070929c5502747f6",
       "name": "DJUG Parsivel\u00b2",
@@ -75,9 +63,21 @@
       "is_nominal": false
     },
     {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.079cdfced7a7438e",
+      "name": "DJUG CHM 15k",
+      "is_nominal": false
+    },
+    {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.24d6e545ff2c483e",
       "name": "DJUG HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.8ca6674ead024d5f",
+      "name": "DJUG weather station",
       "is_nominal": false
     }
   ]

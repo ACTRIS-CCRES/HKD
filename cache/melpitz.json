@@ -1,6 +1,6 @@
 {
   "station": "melpitz",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "chm15k",
@@ -51,21 +51,15 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.75d6aaafbf1a461d",
-      "name": "TROPOS CHM 15k (Melpitz)",
-      "is_nominal": false
-    },
-    {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
-      "name": "TROPOS PollyXT (Melpitz)",
-      "is_nominal": false
-    },
-    {
       "id": "thies-precipitation-transmitter",
       "pid": "https://hdl.handle.net/21.12132/3.38842be0adc64752",
       "name": "TROPOS Precipitation Transmitter (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.75d6aaafbf1a461d",
+      "name": "TROPOS CHM 15k (Melpitz)",
       "is_nominal": false
     },
     {
@@ -84,6 +78,12 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.b47a3d0b8a4c4861",
       "name": "TROPOS HATPRO-G5 (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
+      "name": "TROPOS PollyXT (Melpitz)",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "cluj",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-19",
   "instruments": [
     {
       "id": "chm15k",
@@ -54,6 +54,12 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.028adedd35a44733",
       "name": "UBB HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.7fd1b2d0d767419f",
+      "name": "UBB weather station",
       "is_nominal": false
     }
   ]

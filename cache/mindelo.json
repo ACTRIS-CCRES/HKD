@@ -1,6 +1,6 @@
 {
   "station": "mindelo",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -63,9 +63,9 @@
       "is_nominal": false
     },
     {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.dac8781fef3e4536",
-      "name": "TROPOS CL61 (Mindelo)",
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.3b8d6fb7e7e24f1d",
+      "name": "TROPOS PollyXT (cpv)",
       "is_nominal": false
     },
     {
@@ -81,12 +81,6 @@
       "is_nominal": false
     },
     {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.3b8d6fb7e7e24f1d",
-      "name": "TROPOS PollyXT (cpv)",
-      "is_nominal": false
-    },
-    {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.c98b69a5099a4154",
       "name": "TROPOS MIRA-35S (MBR7)",
@@ -96,6 +90,12 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.fbf9185dbde345ab",
       "name": "TROPOS HATPRO-G5 (Mindelo)",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.dac8781fef3e4536",
+      "name": "TROPOS CL61 (Mindelo)",
       "is_nominal": false
     }
   ]

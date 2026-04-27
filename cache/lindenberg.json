@@ -1,6 +1,6 @@
 {
   "station": "lindenberg",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "radiometrics",
@@ -99,21 +99,21 @@
       "is_nominal": false
     },
     {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.695573e5981845d9",
-      "name": "DWD CL61",
-      "is_nominal": false
-    },
-    {
       "id": "radiometrics",
       "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
       "name": "DWD MP-3263A",
       "is_nominal": false
     },
     {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
-      "name": "DWD LPM",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.70dd09553d13484d",
+      "name": "DWD RPG-FMCW-94-DP",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.d6cc3d73f9dd4d4b",
+      "name": "DWD MIRA-35",
       "is_nominal": false
     },
     {
@@ -123,21 +123,21 @@
       "is_nominal": false
     },
     {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.695573e5981845d9",
+      "name": "DWD CL61",
+      "is_nominal": false
+    },
+    {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.cdf99c536bd04146",
       "name": "DWD CHM 15k",
       "is_nominal": false
     },
     {
-      "id": "da10",
-      "pid": "https://hdl.handle.net/21.12132/3.9c7bcece918642ea",
-      "name": "DWD DIAL DA10",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.d6cc3d73f9dd4d4b",
-      "name": "DWD MIRA-35",
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
+      "name": "DWD LPM",
       "is_nominal": false
     },
     {
@@ -153,9 +153,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.70dd09553d13484d",
-      "name": "DWD RPG-FMCW-94-DP",
+      "id": "da10",
+      "pid": "https://hdl.handle.net/21.12132/3.9c7bcece918642ea",
+      "name": "DWD DIAL DA10",
       "is_nominal": false
     },
     {

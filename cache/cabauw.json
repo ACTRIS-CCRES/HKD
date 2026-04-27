@@ -1,6 +1,6 @@
 {
   "station": "cabauw",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-26",
   "instruments": [
     {
       "id": "wls200s",
@@ -57,15 +57,9 @@
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
-      "name": "TU Delft Parsivel\u00b2 (PAR001)",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.65ecf80219d14d1b",
-      "name": "TU Delft Parsivel\u00b2 (PAR002)",
+      "id": "wls200s",
+      "pid": "https://hdl.handle.net/21.12132/3.dca88604798e4647",
+      "name": "KNMI WLS200S",
       "is_nominal": false
     },
     {
@@ -75,21 +69,27 @@
       "is_nominal": false
     },
     {
-      "id": "wls200s",
-      "pid": "https://hdl.handle.net/21.12132/3.dca88604798e4647",
-      "name": "KNMI WLS200S",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.46797fd6140c4249",
+      "name": "TU Delft HATPRO-G5 (MARIO)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.65ecf80219d14d1b",
+      "name": "TU Delft Parsivel\u00b2 (PAR002)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
+      "name": "TU Delft Parsivel\u00b2 (PAR001)",
       "is_nominal": false
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.c07f533cd86041f1",
       "name": "KNMI CHM 15k",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.46797fd6140c4249",
-      "name": "TU Delft HATPRO-G5 (MARIO)",
       "is_nominal": false
     }
   ]

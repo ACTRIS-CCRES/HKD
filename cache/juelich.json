@@ -1,6 +1,6 @@
 {
   "station": "juelich",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "chm15k",
@@ -153,33 +153,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-35",
-      "pid": "https://hdl.handle.net/21.12132/3.cd8c566efe7346e0",
-      "name": "UoC RPG-FMCW-35-DP-S (JOYDURADO-35)",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.726b3b29de1949cc",
-      "name": "UoC weather station",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.f51736b5923b483c",
-      "name": "UoC HATPRO-G5 (JOYHAT)",
-      "is_nominal": false
-    },
-    {
-      "id": "pluvio",
-      "pid": "https://hdl.handle.net/21.12132/3.49ca09deca9a4e3e",
-      "name": "UoC Pluvio\u00b2",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.f7e002664a7a4e4e",
-      "name": "UoC RPG-FMCW-94-DP-S (JOYDURADO-94)",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.cc152203d7824c70",
+      "name": "UoC Parsivel\u00b2-B",
       "is_nominal": false
     },
     {
@@ -189,15 +165,39 @@
       "is_nominal": false
     },
     {
+      "id": "pluvio",
+      "pid": "https://hdl.handle.net/21.12132/3.49ca09deca9a4e3e",
+      "name": "UoC Pluvio\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.726b3b29de1949cc",
+      "name": "UoC weather station",
+      "is_nominal": false
+    },
+    {
       "id": "ct25k",
       "pid": "https://hdl.handle.net/21.12132/3.9a9061d587e24dc8",
       "name": "UoC CT25K",
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.cc152203d7824c70",
-      "name": "UoC Parsivel\u00b2-B",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f7e002664a7a4e4e",
+      "name": "UoC RPG-FMCW-94-DP-S (JOYDURADO-94)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.f51736b5923b483c",
+      "name": "UoC HATPRO-G5 (JOYHAT)",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.cd8c566efe7346e0",
+      "name": "UoC RPG-FMCW-35-DP-S (JOYDURADO-35)",
       "is_nominal": false
     }
   ]

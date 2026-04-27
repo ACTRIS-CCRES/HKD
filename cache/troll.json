@@ -1,6 +1,6 @@
 {
   "station": "troll",
-  "last_update": "2026-04-05",
+  "last_update": "2026-04-12",
   "instruments": [
     {
       "id": "hatpro",
@@ -33,9 +33,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-35",
-      "pid": "https://hdl.handle.net/21.12132/3.82bd078f71da4bba",
-      "name": "NPI RPG-FMCW-35-DP",
+      "id": "lhatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.0dfb3bc9828048c5",
+      "name": "NPI LHATPRO-G5",
       "is_nominal": false
     },
     {
@@ -45,9 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "lhatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.0dfb3bc9828048c5",
-      "name": "NPI LHATPRO-G5",
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.82bd078f71da4bba",
+      "name": "NPI RPG-FMCW-35-DP",
       "is_nominal": false
     }
   ]
