@@ -1,6 +1,6 @@
 {
   "station": "lindenberg",
-  "last_update": "2026-04-12",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "radiometrics",
@@ -99,9 +99,9 @@
       "is_nominal": false
     },
     {
-      "id": "radiometrics",
-      "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
-      "name": "DWD MP-3263A",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.442ec2ea9a24440e",
+      "name": "DWD HATPRO-G5",
       "is_nominal": false
     },
     {
@@ -111,15 +111,9 @@
       "is_nominal": false
     },
     {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.d6cc3d73f9dd4d4b",
-      "name": "DWD MIRA-35",
-      "is_nominal": false
-    },
-    {
-      "id": "rain-e-h3",
-      "pid": "https://hdl.handle.net/21.12132/3.3292ee29e461405a",
-      "name": "DWD rain[e]H3",
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
+      "name": "DWD LPM",
       "is_nominal": false
     },
     {
@@ -129,15 +123,27 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.cdf99c536bd04146",
-      "name": "DWD CHM 15k",
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.d6cc3d73f9dd4d4b",
+      "name": "DWD MIRA-35",
       "is_nominal": false
     },
     {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
-      "name": "DWD LPM",
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.ffb25f43330f4793",
+      "name": "DWD weather station",
+      "is_nominal": false
+    },
+    {
+      "id": "radiometrics",
+      "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
+      "name": "DWD MP-3263A",
+      "is_nominal": false
+    },
+    {
+      "id": "rain-e-h3",
+      "pid": "https://hdl.handle.net/21.12132/3.3292ee29e461405a",
+      "name": "DWD rain[e]H3",
       "is_nominal": false
     },
     {
@@ -147,21 +153,15 @@
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.442ec2ea9a24440e",
-      "name": "DWD HATPRO-G5",
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.cdf99c536bd04146",
+      "name": "DWD CHM 15k",
       "is_nominal": false
     },
     {
       "id": "da10",
       "pid": "https://hdl.handle.net/21.12132/3.9c7bcece918642ea",
       "name": "DWD DIAL DA10",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.ffb25f43330f4793",
-      "name": "DWD weather station",
       "is_nominal": false
     }
   ]

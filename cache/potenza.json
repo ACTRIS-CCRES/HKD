@@ -1,6 +1,6 @@
 {
   "station": "potenza",
-  "last_update": "2026-04-12",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -51,9 +51,9 @@
       "is_nominal": false
     },
     {
-      "id": "cl51",
-      "pid": "https://hdl.handle.net/21.12132/3.7133f30865bc4781",
-      "name": "CNR CL51",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.31a1d1e9694f47bd",
+      "name": "CNR HALO",
       "is_nominal": false
     },
     {
@@ -63,21 +63,15 @@
       "is_nominal": false
     },
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.31a1d1e9694f47bd",
-      "name": "CNR HALO",
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.7133f30865bc4781",
+      "name": "CNR CL51",
       "is_nominal": false
     },
     {
       "id": "mrr-pro",
       "pid": "https://hdl.handle.net/21.12132/3.289f5d0e2aaa466f",
       "name": "CNR MRR-PRO",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.a150e648f86847a5",
-      "name": "CNR MIRA-35S",
       "is_nominal": false
     }
   ]

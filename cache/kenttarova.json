@@ -1,6 +1,6 @@
 {
   "station": "kenttarova",
-  "last_update": "2026-04-12",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -45,6 +45,12 @@
       "is_nominal": false
     },
     {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.07c5121351fc4370",
+      "name": "FMI weather station",
+      "is_nominal": false
+    },
+    {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.0b6f9ce3ed364cc4",
       "name": "FMI Parsivel\u00b2-A",
@@ -54,12 +60,6 @@
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.f33e53dddde44495",
       "name": "FMI CL61-B",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.07c5121351fc4370",
-      "name": "FMI weather station",
       "is_nominal": false
     }
   ]

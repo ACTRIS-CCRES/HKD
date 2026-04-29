@@ -1,6 +1,6 @@
 {
   "station": "bucharest",
-  "last_update": "2026-04-26",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -63,9 +63,9 @@
       "is_nominal": false
     },
     {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.d98f6fd2bec94e5e",
-      "name": "INOE MIRA-35S",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.0b458d3945e146cc",
+      "name": "UBB RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {
@@ -75,15 +75,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.0b458d3945e146cc",
-      "name": "UBB RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.a75d4215f338412e",
-      "name": "INOE Parsivel\u00b2",
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.c60c931fac9d43f0",
+      "name": "INOE CHM 15k",
       "is_nominal": false
     },
     {
@@ -93,9 +87,15 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.c60c931fac9d43f0",
-      "name": "INOE CHM 15k",
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.d98f6fd2bec94e5e",
+      "name": "INOE MIRA-35S",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.930d8f295fa24ae5",
+      "name": "INOE weather station",
       "is_nominal": false
     },
     {
@@ -105,9 +105,9 @@
       "is_nominal": false
     },
     {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.930d8f295fa24ae5",
-      "name": "INOE weather station",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.a75d4215f338412e",
+      "name": "INOE Parsivel\u00b2",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "norunda",
-  "last_update": "2026-04-12",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "cl51",
@@ -21,21 +21,21 @@
       "is_nominal": false
     },
     {
-      "id": "cl51",
-      "pid": "https://hdl.handle.net/21.12132/3.5a1e499b9a0d4333",
-      "name": "Lund CL51",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.1615a6ed824c4556",
+      "name": "ESA/SMHI Parsivel\u00b2",
       "is_nominal": false
     },
     {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.bf6c0c3926c54dbb",
-      "name": "ESA RPG-FMCW-94-DP",
+      "name": "ESA/SMHI RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.1615a6ed824c4556",
-      "name": "ESA Parsivel\u00b2",
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.5a1e499b9a0d4333",
+      "name": "Lund CL51",
       "is_nominal": false
     }
   ]

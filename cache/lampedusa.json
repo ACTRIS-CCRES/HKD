@@ -1,6 +1,6 @@
 {
   "station": "lampedusa",
-  "last_update": "2026-04-12",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "mira-35",
@@ -45,18 +45,6 @@
       "is_nominal": false
     },
     {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.4e7765c0c8bd4d1d",
-      "name": "ENEA LPM",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.5881321c3c4948ca",
-      "name": "ENEA AWS310",
-      "is_nominal": false
-    },
-    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.6415e5400cf7468e",
       "name": "ENEA HATPRO-G5",
@@ -66,6 +54,18 @@
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.a5d479cd32a14a88",
       "name": "ENEA CHM 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.5881321c3c4948ca",
+      "name": "ENEA AWS310",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.4e7765c0c8bd4d1d",
+      "name": "ENEA LPM",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "palaiseau",
-  "last_update": "2026-04-12",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "hatpro",
@@ -69,9 +69,9 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.9b914f8c94c4438a",
-      "name": "IPSL CHM 15k (2021)",
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.739041931dac4de5",
+      "name": "IPSL weather station",
       "is_nominal": false
     },
     {
@@ -81,15 +81,15 @@
       "is_nominal": false
     },
     {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.11d3217867474e22",
-      "name": "IPSL/CNRS LPM",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.7e13f3f243854ae8",
+      "name": "IPSL Parsivel\u00b2",
       "is_nominal": false
     },
     {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.739041931dac4de5",
-      "name": "IPSL weather station",
+      "id": "wls400s",
+      "pid": "https://hdl.handle.net/21.12132/3.455010e11c0545ae",
+      "name": "IPSL/CNRS WLS400S",
       "is_nominal": false
     },
     {
@@ -99,9 +99,9 @@
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.7e13f3f243854ae8",
-      "name": "IPSL Parsivel\u00b2",
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.11d3217867474e22",
+      "name": "IPSL/CNRS LPM",
       "is_nominal": false
     },
     {
@@ -111,9 +111,9 @@
       "is_nominal": false
     },
     {
-      "id": "wls400s",
-      "pid": "https://hdl.handle.net/21.12132/3.455010e11c0545ae",
-      "name": "IPSL/CNRS WLS400S",
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.9b914f8c94c4438a",
+      "name": "IPSL CHM 15k (2021)",
       "is_nominal": false
     }
   ]

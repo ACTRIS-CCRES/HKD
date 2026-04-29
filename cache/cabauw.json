@@ -1,6 +1,6 @@
 {
   "station": "cabauw",
-  "last_update": "2026-04-26",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "wls200s",
@@ -63,15 +63,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.4c28f7a6b7fc4d15",
-      "name": "TU Delft RPG-FMCW-94-DP (MARA-94)",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.46797fd6140c4249",
-      "name": "TU Delft HATPRO-G5 (MARIO)",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
+      "name": "TU Delft Parsivel\u00b2 (PAR001)",
       "is_nominal": false
     },
     {
@@ -81,15 +75,21 @@
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
-      "name": "TU Delft Parsivel\u00b2 (PAR001)",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.46797fd6140c4249",
+      "name": "TU Delft HATPRO-G5 (MARIO)",
       "is_nominal": false
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.c07f533cd86041f1",
       "name": "KNMI CHM 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.4c28f7a6b7fc4d15",
+      "name": "TU Delft RPG-FMCW-94-DP (MARA-94)",
       "is_nominal": false
     }
   ]

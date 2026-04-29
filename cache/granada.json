@@ -1,6 +1,6 @@
 {
   "station": "granada",
-  "last_update": "2026-04-12",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -87,27 +87,15 @@
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.fc2eb938593e4573",
-      "name": "UGR HATPRO-G5",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.20570e63f7b1496c",
+      "name": "UGR RPG-FMCW-94-DP (NEBULA)",
       "is_nominal": false
     },
     {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.8f31e16545d14ff3",
       "name": "UGR Parsivel\u00b2",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-35",
-      "pid": "https://hdl.handle.net/21.12132/3.45ee9a92825c447a",
-      "name": "UGR RPG-FMCW-35-DP (NEBULA)",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.20570e63f7b1496c",
-      "name": "UGR RPG-FMCW-94-DP (NEBULA)",
       "is_nominal": false
     },
     {
@@ -120,6 +108,18 @@
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.140918e899a647f3",
       "name": "UGR weather station",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.fc2eb938593e4573",
+      "name": "UGR HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.45ee9a92825c447a",
+      "name": "UGR RPG-FMCW-35-DP (NEBULA)",
       "is_nominal": false
     }
   ]

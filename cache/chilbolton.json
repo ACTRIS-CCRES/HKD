@@ -1,6 +1,6 @@
 {
   "station": "chilbolton",
-  "last_update": "2026-04-19",
+  "last_update": "2026-04-29",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -30,6 +30,12 @@
       "id": "galileo",
       "pid": "https://hdl.handle.net/21.12132/3.981da267085b4966",
       "name": "UKRI Galileo",
+      "is_nominal": false
+    },
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.1ca2b7d6323f486b",
+      "name": "UKRI CL51",
       "is_nominal": false
     }
   ]
