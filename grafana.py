@@ -2,6 +2,7 @@
 """Script to upload dashboard for all stations."""
 
 import logging
+import time
 from pathlib import Path
 
 import click
@@ -222,6 +223,7 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
             # create dashboard
             logger.info("dashboard UID: %s", dashboard_uid)
             grafana.create_dashboard(dashboard, folder_uid=folders_uid[site_id])
+            time.sleep(1)  # avoid error from sqlite DB timeout
 
     return 0
 
