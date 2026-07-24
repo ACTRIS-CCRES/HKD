@@ -1,0 +1,90 @@
+{
+  "station": "falkenberg",
+  "last_update": "2026-07-19",
+  "instruments": [
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.3e013ad163c5451d",
+      "name": "LIM HATPRO-G5 (LIMHAT)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.7d8e02584f8541a9",
+      "name": "LIM CHM 15k (CEILIM)",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f54a7d7ca3944dec",
+      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)",
+      "is_nominal": false
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.156843ccb60a4a92",
+      "name": "LIM MRR-PRO (LIMRAD24)",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.e7570f6695ea4afb",
+      "name": "LIM HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.0538a5357b744e17",
+      "name": "LIM LPM (RSA 5)",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.9f8e1b4141e7472a",
+      "name": "LIM WS500 (LIMMACO-Rad-WS)",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.e7570f6695ea4afb",
+      "name": "LIM HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.9f8e1b4141e7472a",
+      "name": "LIM WS500 (LIMMACO-Rad-WS)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.3e013ad163c5451d",
+      "name": "LIM HATPRO-G5 (LIMHAT)",
+      "is_nominal": false
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.156843ccb60a4a92",
+      "name": "LIM MRR-PRO (LIMRAD24)",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.0538a5357b744e17",
+      "name": "LIM LPM (RSA 5)",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f54a7d7ca3944dec",
+      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.7d8e02584f8541a9",
+      "name": "LIM CHM 15k (CEILIM)",
+      "is_nominal": false
+    }
+  ]
+}

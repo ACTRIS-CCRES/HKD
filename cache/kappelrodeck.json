@@ -1,0 +1,66 @@
+{
+  "station": "kappelrodeck",
+  "last_update": "2026-07-19",
+  "instruments": [
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.90bc68c021e84595",
+      "name": "KIT RPG-FMCW-94-DP",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.c1ddaa8d62e94942",
+      "name": "KIT HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "cl31",
+      "pid": "https://hdl.handle.net/21.12132/3.344d0c419a5a4f72",
+      "name": "KIT CL31",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.c42f293711eb4233",
+      "name": "KIT Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.12da536f0d0741ea",
+      "name": "KIT HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.90bc68c021e84595",
+      "name": "KIT RPG-FMCW-94-DP",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.c1ddaa8d62e94942",
+      "name": "KIT HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "cl31",
+      "pid": "https://hdl.handle.net/21.12132/3.344d0c419a5a4f72",
+      "name": "KIT CL31",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.12da536f0d0741ea",
+      "name": "KIT HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.c42f293711eb4233",
+      "name": "KIT Parsivel\u00b2",
+      "is_nominal": false
+    }
+  ]
+}
