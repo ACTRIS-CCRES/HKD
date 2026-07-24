@@ -1,6 +1,6 @@
 {
   "station": "hyytiala",
-  "last_update": "2026-04-29",
+  "last_update": "2026-07-19",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -48,12 +48,6 @@
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.191564170f8a4686",
       "name": "UH RPG-FMCW-94 (HYDRA-W)",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.f360a2375f3e4e4f",
-      "name": "UH HATPRO-G5",
       "is_nominal": false
     },
     {

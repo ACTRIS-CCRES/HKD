@@ -1,6 +1,6 @@
 {
   "station": "melpitz",
-  "last_update": "2026-04-29",
+  "last_update": "2026-07-19",
   "instruments": [
     {
       "id": "chm15k",
@@ -45,21 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "thies-precipitation-transmitter",
-      "pid": "https://hdl.handle.net/21.12132/3.38842be0adc64752",
-      "name": "TROPOS Precipitation Transmitter (Melpitz)",
-      "is_nominal": false
-    },
-    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.b47a3d0b8a4c4861",
       "name": "TROPOS HATPRO-G5 (Melpitz)",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.7002e439db134203",
-      "name": "TROPOS Parsivel\u00b2 (Melpitz)",
       "is_nominal": false
     },
     {
@@ -69,9 +57,9 @@
       "is_nominal": false
     },
     {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
-      "name": "TROPOS PollyXT (Melpitz)",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.be50699171b24e17",
+      "name": "TROPOS HALO (Shaun)",
       "is_nominal": false
     },
     {
@@ -81,9 +69,21 @@
       "is_nominal": false
     },
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.be50699171b24e17",
-      "name": "TROPOS HALO (Shaun)",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.7002e439db134203",
+      "name": "TROPOS Parsivel\u00b2 (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.38842be0adc64752",
+      "name": "TROPOS Precipitation Transmitter (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
+      "name": "TROPOS PollyXT (Melpitz)",
       "is_nominal": false
     }
   ]

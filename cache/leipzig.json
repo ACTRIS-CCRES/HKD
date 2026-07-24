@@ -1,6 +1,6 @@
 {
   "station": "leipzig",
-  "last_update": "2026-04-29",
+  "last_update": "2026-07-19",
   "instruments": [
     {
       "id": "pollyxt",
@@ -99,15 +99,15 @@
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.969bae90fd044896",
-      "name": "TROPOS HATPRO-G2 (LACROS)",
-      "is_nominal": false
-    },
-    {
       "id": "da10",
       "pid": "https://hdl.handle.net/21.12132/3.887feaf93e5f4ea1",
       "name": "TROPOS DIAL DA10",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.31c4f71cf1a74e03",
+      "name": "TROPOS PollyXT (Arielle)",
       "is_nominal": false
     },
     {
@@ -117,9 +117,9 @@
       "is_nominal": false
     },
     {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.31c4f71cf1a74e03",
-      "name": "TROPOS PollyXT (Arielle)",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.969bae90fd044896",
+      "name": "TROPOS HATPRO-G2 (LACROS)",
       "is_nominal": false
     }
   ]

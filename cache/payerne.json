@@ -1,6 +1,6 @@
 {
   "station": "payerne",
-  "last_update": "2026-04-29",
+  "last_update": "2026-07-19",
   "instruments": [
     {
       "id": "chm15k",
@@ -45,21 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.37a71c75789f47c3",
-      "name": "UB RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.555f748f72634a19",
       "name": "MeteoSwiss HATPRO-G5 (2)",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.5ffe1a5df37145cc",
-      "name": "MeteoSwiss CHM 15k",
       "is_nominal": false
     },
     {
@@ -72,6 +60,18 @@
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.2d386110ecd24616",
       "name": "UB CL61",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.5ffe1a5df37145cc",
+      "name": "MeteoSwiss CHM 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.37a71c75789f47c3",
+      "name": "UB RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {

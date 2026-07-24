@@ -1,6 +1,6 @@
 {
   "station": "juelich",
-  "last_update": "2026-04-29",
+  "last_update": "2026-07-19",
   "instruments": [
     {
       "id": "chm15k",
@@ -153,33 +153,45 @@
       "is_nominal": false
     },
     {
-      "id": "lhumpro",
-      "pid": "https://hdl.handle.net/21.12132/3.549c7e76ad4d4a10",
-      "name": "UoC LHUMPRO-U90-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.726b3b29de1949cc",
-      "name": "UoC weather station",
-      "is_nominal": false
-    },
-    {
       "id": "rpg-fmcw-35",
       "pid": "https://hdl.handle.net/21.12132/3.cd8c566efe7346e0",
       "name": "UoC RPG-FMCW-35-DP-S (JOYDURADO-35)",
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.f7e002664a7a4e4e",
-      "name": "UoC RPG-FMCW-94-DP-S (JOYDURADO-94)",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.48bd7da035b94ffd",
+      "name": "UoC HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.cc152203d7824c70",
+      "name": "UoC Parsivel\u00b2-B",
       "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.f51736b5923b483c",
       "name": "UoC HATPRO-G5 (JOYHAT)",
+      "is_nominal": false
+    },
+    {
+      "id": "lhumpro",
+      "pid": "https://hdl.handle.net/21.12132/3.549c7e76ad4d4a10",
+      "name": "UoC LHUMPRO-U90-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "pluvio",
+      "pid": "https://hdl.handle.net/21.12132/3.49ca09deca9a4e3e",
+      "name": "UoC Pluvio\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.324507c6ce8e489c",
+      "name": "UoC CHM 15k",
       "is_nominal": false
     },
     {
@@ -195,21 +207,15 @@
       "is_nominal": false
     },
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.48bd7da035b94ffd",
-      "name": "UoC HALO",
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.726b3b29de1949cc",
+      "name": "UoC weather station",
       "is_nominal": false
     },
     {
-      "id": "pluvio",
-      "pid": "https://hdl.handle.net/21.12132/3.49ca09deca9a4e3e",
-      "name": "UoC Pluvio\u00b2",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.cc152203d7824c70",
-      "name": "UoC Parsivel\u00b2-B",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f7e002664a7a4e4e",
+      "name": "UoC RPG-FMCW-94-DP-S (JOYDURADO-94)",
       "is_nominal": false
     }
   ]

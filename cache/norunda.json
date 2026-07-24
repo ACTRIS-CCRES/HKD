@@ -1,6 +1,6 @@
 {
   "station": "norunda",
-  "last_update": "2026-04-29",
+  "last_update": "2026-07-19",
   "instruments": [
     {
       "id": "cl51",
@@ -24,6 +24,12 @@
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.1615a6ed824c4556",
       "name": "ESA/SMHI Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.bf6c0c3926c54dbb",
+      "name": "ESA/SMHI RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {

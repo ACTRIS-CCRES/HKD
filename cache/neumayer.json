@@ -1,6 +1,6 @@
 {
   "station": "neumayer",
-  "last_update": "2026-04-29",
+  "last_update": "2026-07-19",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -69,6 +69,12 @@
       "is_nominal": false
     },
     {
+      "id": "minimpl",
+      "pid": "https://hdl.handle.net/21.12132/3.f997d051867a43ed",
+      "name": "AWI MiniMPL",
+      "is_nominal": false
+    },
+    {
       "id": "mrr-pro",
       "pid": "https://hdl.handle.net/21.12132/3.e3902ab075664bf1",
       "name": "AWI MRR-PRO",
@@ -78,12 +84,6 @@
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.e166bb0b5e9246ce",
       "name": "AWI HALO (234)",
-      "is_nominal": false
-    },
-    {
-      "id": "minimpl",
-      "pid": "https://hdl.handle.net/21.12132/3.f997d051867a43ed",
-      "name": "AWI MiniMPL",
       "is_nominal": false
     },
     {
