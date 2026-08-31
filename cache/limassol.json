@@ -1,6 +1,6 @@
 {
   "station": "limassol",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -51,9 +51,21 @@
       "is_nominal": false
     },
     {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.055aa99bd53c4163",
-      "name": "ECoE PollyXT-CYP",
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.9af43f93e39649f5",
+      "name": "ECoE MIRA-35S",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.d7b65c4b72b6432d",
+      "name": "ECoE CHM 15k",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.41582c4957f444b3",
+      "name": "ECoE Parsivel\u00b2",
       "is_nominal": false
     },
     {
@@ -75,21 +87,9 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.d7b65c4b72b6432d",
-      "name": "ECoE CHM 15k",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.41582c4957f444b3",
-      "name": "ECoE Parsivel\u00b2",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.9af43f93e39649f5",
-      "name": "ECoE MIRA-35S",
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.055aa99bd53c4163",
+      "name": "ECoE PollyXT-CYP",
       "is_nominal": false
     }
   ]

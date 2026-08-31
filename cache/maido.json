@@ -1,6 +1,6 @@
 {
   "station": "maido",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "basta",
@@ -45,15 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "pluvio",
-      "pid": "https://hdl.handle.net/21.12132/3.00a9fdae6ac84028",
-      "name": "LACy Pluvio\u00b2 L",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.5421272f0eb34540",
-      "name": "LACy MetConnect One",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.981516412b2c4c73",
+      "name": "LACy Parsivel\u00b2",
       "is_nominal": false
     },
     {
@@ -63,9 +57,15 @@
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.981516412b2c4c73",
-      "name": "LACy Parsivel\u00b2",
+      "id": "pluvio",
+      "pid": "https://hdl.handle.net/21.12132/3.00a9fdae6ac84028",
+      "name": "LACy Pluvio\u00b2 L",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.5421272f0eb34540",
+      "name": "LACy MetConnect One",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "neumayer",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -57,9 +57,27 @@
       "is_nominal": false
     },
     {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.f9703e0df4d143ee",
+      "name": "AWI CL51 (F3460002)",
+      "is_nominal": false
+    },
+    {
       "id": "mrr-pro",
       "pid": "https://hdl.handle.net/21.12132/3.e3902ab075664bf1",
       "name": "AWI MRR-PRO",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.b8d48671eebe45ec",
+      "name": "AWI HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.9ccc0053d5c44ca6",
+      "name": "AWI RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {
@@ -72,24 +90,6 @@
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.e166bb0b5e9246ce",
       "name": "AWI HALO (234)",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.9ccc0053d5c44ca6",
-      "name": "AWI RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.b8d48671eebe45ec",
-      "name": "AWI HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "cl51",
-      "pid": "https://hdl.handle.net/21.12132/3.f9703e0df4d143ee",
-      "name": "AWI CL51 (F3460002)",
       "is_nominal": false
     }
   ]

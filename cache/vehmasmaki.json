@@ -1,6 +1,6 @@
 {
   "station": "vehmasmaki",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "halo-doppler-lidar",

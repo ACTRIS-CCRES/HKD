@@ -1,6 +1,6 @@
 {
   "station": "invercargill",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -57,27 +57,9 @@
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.922bd0a8c7f34064",
-      "name": "TROPOS Parsivel\u00b2 (LACROS)",
-      "is_nominal": false
-    },
-    {
-      "id": "thies-precipitation-transmitter",
-      "pid": "https://hdl.handle.net/21.12132/3.7cfaf3252c45451d",
-      "name": "TROPOS Precipitation Transmitter (LACROS)",
-      "is_nominal": false
-    },
-    {
       "id": "chm15kx",
       "pid": "https://hdl.handle.net/21.12132/3.cd3578e9f68b42c0",
       "name": "TROPOS CHM 15k-x (LACROS)",
-      "is_nominal": false
-    },
-    {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.948d8681112b44c3",
-      "name": "TROPOS PollyXT (LACROS2)",
       "is_nominal": false
     },
     {
@@ -87,15 +69,21 @@
       "is_nominal": false
     },
     {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.ec09dc9c028c42d1",
-      "name": "TROPOS MIRA-35S (LACROS)",
-      "is_nominal": false
-    },
-    {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.f6f3cee4a8014f41",
       "name": "TROPOS HALO (Skipper)",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.7cfaf3252c45451d",
+      "name": "TROPOS Precipitation Transmitter (LACROS)",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.4cab4fe7d62c406a",
+      "name": "TROPOS CL61 (LACROS)",
       "is_nominal": false
     },
     {
@@ -105,9 +93,21 @@
       "is_nominal": false
     },
     {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.4cab4fe7d62c406a",
-      "name": "TROPOS CL61 (LACROS)",
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.948d8681112b44c3",
+      "name": "TROPOS PollyXT (LACROS2)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.922bd0a8c7f34064",
+      "name": "TROPOS Parsivel\u00b2 (LACROS)",
+      "is_nominal": false
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.ec09dc9c028c42d1",
+      "name": "TROPOS MIRA-35S (LACROS)",
       "is_nominal": false
     }
   ]

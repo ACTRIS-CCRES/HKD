@@ -1,6 +1,6 @@
 {
   "station": "lutjewad",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "parsivel",
@@ -30,12 +30,6 @@
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
       "name": "TU Delft Parsivel\u00b2 (PAR001)",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.04e6aea45d5f44df",
-      "name": "TU Delft HATPRO-G5 (LARIO)",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "falkenberg",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "hatpro",
@@ -45,21 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.7d8e02584f8541a9",
-      "name": "LIM CHM 15k (CEILIM)",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.f54a7d7ca3944dec",
-      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.3e013ad163c5451d",
-      "name": "LIM HATPRO-G5 (LIMHAT)",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.e7570f6695ea4afb",
+      "name": "LIM HALO",
       "is_nominal": false
     },
     {
@@ -69,9 +57,21 @@
       "is_nominal": false
     },
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.e7570f6695ea4afb",
-      "name": "LIM HALO",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.3e013ad163c5451d",
+      "name": "LIM HATPRO-G5 (LIMHAT)",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.f54a7d7ca3944dec",
+      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.7d8e02584f8541a9",
+      "name": "LIM CHM 15k (CEILIM)",
       "is_nominal": false
     },
     {

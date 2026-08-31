@@ -1,6 +1,6 @@
 {
   "station": "lindenberg",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "radiometrics",
@@ -111,9 +111,9 @@
       "is_nominal": false
     },
     {
-      "id": "rain-e-h3",
-      "pid": "https://hdl.handle.net/21.12132/3.3292ee29e461405a",
-      "name": "DWD rain[e]H3",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.70dd09553d13484d",
+      "name": "DWD RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {
@@ -123,9 +123,15 @@
       "is_nominal": false
     },
     {
-      "id": "radiometrics",
-      "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
-      "name": "DWD MP-3263A",
+      "id": "rain-e-h3",
+      "pid": "https://hdl.handle.net/21.12132/3.3292ee29e461405a",
+      "name": "DWD rain[e]H3",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
+      "name": "DWD LPM",
       "is_nominal": false
     },
     {
@@ -135,9 +141,9 @@
       "is_nominal": false
     },
     {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
-      "name": "DWD LPM",
+      "id": "radiometrics",
+      "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
+      "name": "DWD MP-3263A",
       "is_nominal": false
     },
     {
@@ -153,9 +159,9 @@
       "is_nominal": false
     },
     {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.695573e5981845d9",
-      "name": "DWD CL61",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.4b31c245e3b143f0",
+      "name": "AWI HALO (288)",
       "is_nominal": false
     },
     {
@@ -165,15 +171,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.70dd09553d13484d",
-      "name": "DWD RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.4b31c245e3b143f0",
-      "name": "AWI HALO (288)",
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.695573e5981845d9",
+      "name": "DWD CL61",
       "is_nominal": false
     }
   ]

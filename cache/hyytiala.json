@@ -1,6 +1,6 @@
 {
   "station": "hyytiala",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -57,15 +57,15 @@
       "is_nominal": false
     },
     {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.241bda142975460b",
-      "name": "UH CL61",
-      "is_nominal": false
-    },
-    {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.69dddc0004b64b32",
       "name": "FMI Parsivel23",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.241bda142975460b",
+      "name": "UH CL61",
       "is_nominal": false
     }
   ]

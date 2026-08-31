@@ -1,6 +1,6 @@
 {
   "station": "ny-alesund",
-  "last_update": "2026-08-30",
+  "last_update": "2026-08-31",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -51,27 +51,27 @@
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.6fb23021bef04200",
-      "name": "AWI HATPRO-G2",
-      "is_nominal": false
-    },
-    {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.bcb696b18d824005",
       "name": "UoC RPG-FMCW-94-SP (MiRAC)",
       "is_nominal": false
     },
     {
-      "id": "cl51",
-      "pid": "https://hdl.handle.net/21.12132/3.38c847977e764f16",
-      "name": "AWI CL51",
-      "is_nominal": false
-    },
-    {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.b4c99d3b8b344a22",
       "name": "UoC Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.6fb23021bef04200",
+      "name": "AWI HATPRO-G2",
+      "is_nominal": false
+    },
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.38c847977e764f16",
+      "name": "AWI CL51",
       "is_nominal": false
     }
   ]
