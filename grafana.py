@@ -144,7 +144,7 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
         # get unique instruments of the station
         logger.debug("Getting list of instruments")
         instruments_meta = cloudnet.InstrumentsList(site_id, CACHE_DIR).instruments
-        instruments_id = [instrument.id for instrument in instruments_meta]
+        instruments_id = {instrument.id for instrument in instruments_meta}
 
         if not instruments_id:
             logger.error("No instruments for %s. Skipping", site_id)
