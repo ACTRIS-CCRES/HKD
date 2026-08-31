@@ -1,6 +1,6 @@
 {
   "station": "schneefernerhaus",
-  "last_update": "2026-01-18",
+  "last_update": "2026-08-30",
   "instruments": [
     {
       "id": "hatpro",
@@ -39,9 +39,9 @@
       "is_nominal": false
     },
     {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.814e6693acda4ba9",
-      "name": "UFS MIRA-35C",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.3b159f9ee29544e9",
+      "name": "LMU HATPRO-G4",
       "is_nominal": false
     },
     {

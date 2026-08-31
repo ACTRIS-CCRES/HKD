@@ -1,6 +1,6 @@
 {
   "station": "chilbolton",
-  "last_update": "2026-07-19",
+  "last_update": "2026-08-30",
   "instruments": [
     {
       "id": "halo-doppler-lidar",

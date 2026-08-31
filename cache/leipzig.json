@@ -1,6 +1,6 @@
 {
   "station": "leipzig",
-  "last_update": "2026-07-19",
+  "last_update": "2026-08-30",
   "instruments": [
     {
       "id": "pollyxt",
@@ -111,15 +111,21 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.3809aae6fdb24f61",
-      "name": "TROPOS RPG-FMCW-94-DP (Melpitz)",
+      "id": "da10",
+      "pid": "https://hdl.handle.net/21.12132/3.887feaf93e5f4ea1",
+      "name": "TROPOS DIAL DA10",
       "is_nominal": false
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.969bae90fd044896",
       "name": "TROPOS HATPRO-G2 (LACROS)",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.3809aae6fdb24f61",
+      "name": "TROPOS RPG-FMCW-94-DP (Melpitz)",
       "is_nominal": false
     }
   ]

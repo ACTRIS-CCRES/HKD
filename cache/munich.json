@@ -1,6 +1,6 @@
 {
   "station": "munich",
-  "last_update": "2026-07-19",
+  "last_update": "2026-08-30",
   "instruments": [
     {
       "id": "mira-35",
@@ -69,27 +69,15 @@
       "is_nominal": false
     },
     {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.fa676e2576644868",
-      "name": "LMU weather station",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.fab6c205243949eb",
+      "name": "LMU Parsivel\u00b2",
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.4025c06be1ab4983",
-      "name": "LMU HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-10",
-      "pid": "https://hdl.handle.net/21.12132/3.d607bf23350b479f",
-      "name": "LMU MIRA-10 (X-MACS)",
-      "is_nominal": false
-    },
-    {
-      "id": "mrr-pro",
-      "pid": "https://hdl.handle.net/21.12132/3.002a1af1dbc143b5",
-      "name": "LMU MRR-PRO",
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.7c1d258632f94cdd",
+      "name": "LMU MIRA-35S (Ka-MACS)",
       "is_nominal": false
     },
     {
@@ -99,21 +87,33 @@
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.fab6c205243949eb",
-      "name": "LMU Parsivel\u00b2",
+      "id": "mira-10",
+      "pid": "https://hdl.handle.net/21.12132/3.d607bf23350b479f",
+      "name": "LMU MIRA-10 (X-MACS)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.4025c06be1ab4983",
+      "name": "LMU HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.fa676e2576644868",
+      "name": "LMU weather station",
+      "is_nominal": false
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.002a1af1dbc143b5",
+      "name": "LMU MRR-PRO",
       "is_nominal": false
     },
     {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.e0c62913f7c34b71",
       "name": "LMU RPG-FMCW-94-DP (W-MACS)",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.7c1d258632f94cdd",
-      "name": "LMU MIRA-35S (Ka-MACS)",
       "is_nominal": false
     }
   ]

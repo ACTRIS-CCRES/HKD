@@ -1,6 +1,6 @@
 {
   "station": "mindelo",
-  "last_update": "2026-07-19",
+  "last_update": "2026-08-30",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -63,15 +63,9 @@
       "is_nominal": false
     },
     {
-      "id": "thies-precipitation-transmitter",
-      "pid": "https://hdl.handle.net/21.12132/3.057664d9f5cd46cb",
-      "name": "TROPOS Precipitation Transmitter (Mindelo)",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.738143791c524103",
-      "name": "TROPOS HALO XR (Timmy)",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.a5857315ede24789",
+      "name": "TROPOS Parsivel\u00b2 (Mindelo)",
       "is_nominal": false
     },
     {
@@ -87,15 +81,21 @@
       "is_nominal": false
     },
     {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.3b8d6fb7e7e24f1d",
-      "name": "TROPOS PollyXT (cpv)",
+      "id": "thies-precipitation-transmitter",
+      "pid": "https://hdl.handle.net/21.12132/3.057664d9f5cd46cb",
+      "name": "TROPOS Precipitation Transmitter (Mindelo)",
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.a5857315ede24789",
-      "name": "TROPOS Parsivel\u00b2 (Mindelo)",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.738143791c524103",
+      "name": "TROPOS HALO XR (Timmy)",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.3b8d6fb7e7e24f1d",
+      "name": "TROPOS PollyXT (cpv)",
       "is_nominal": false
     }
   ]

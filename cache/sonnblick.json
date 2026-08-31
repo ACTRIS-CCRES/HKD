@@ -1,6 +1,6 @@
 {
   "station": "sonnblick",
-  "last_update": "2026-07-05",
+  "last_update": "2026-08-30",
   "instruments": [
     {
       "id": "cl51",
@@ -12,6 +12,18 @@
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.43d52546ba90476e",
       "name": "GSA CL61",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.43d52546ba90476e",
+      "name": "GSA CL61",
+      "is_nominal": false
+    },
+    {
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.6fef0ca2f66d4ffd",
+      "name": "GSA CL51",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "mace-head",
-  "last_update": "2026-07-19",
+  "last_update": "2026-08-30",
   "instruments": [
     {
       "id": "hatpro",
@@ -21,15 +21,15 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.5c5d0a39d2cd403d",
-      "name": "NUIG CMH 15k",
-      "is_nominal": false
-    },
-    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.5c5f8816d6834041",
       "name": "NUIG HATPRO-G1",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.5c5d0a39d2cd403d",
+      "name": "NUIG CMH 15k",
       "is_nominal": false
     }
   ]
