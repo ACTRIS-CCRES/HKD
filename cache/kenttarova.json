@@ -3,82 +3,44 @@
   "last_update": "2026-10-24",
   "instruments": [
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.a93d1483f10742ff",
-      "name": "FMI HALO 146",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.e44e1ffac7954538",
-      "name": "FMI RPG-FMCW-94-DP",
-      "is_nominal": false
+      "id": "cl31",
+      "pid": "https://hdl.handle.net/21.12132/3.2a7c4f8b6c1344f3",
+      "name": "FMI CL31"
     },
     {
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.f33e53dddde44495",
-      "name": "FMI CL61-B",
-      "is_nominal": false
+      "name": "FMI CL61-B"
     },
     {
-      "id": "cl31",
-      "pid": "https://hdl.handle.net/21.12132/3.2a7c4f8b6c1344f3",
-      "name": "FMI CL31",
-      "is_nominal": false
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.a93d1483f10742ff",
+      "name": "FMI HALO 146"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.846aeec3dbfd4984",
+      "name": "FMI HALO 34"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.816e3e20c6a44fb8",
+      "name": "FMI HATPRO-G5"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.0b6f9ce3ed364cc4",
+      "name": "FMI Parsivel²-A"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.e44e1ffac7954538",
+      "name": "FMI RPG-FMCW-94-DP"
     },
     {
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.07c5121351fc4370",
-      "name": "FMI weather station",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.0b6f9ce3ed364cc4",
-      "name": "FMI Parsivel\u00b2-A",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.816e3e20c6a44fb8",
-      "name": "FMI HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.846aeec3dbfd4984",
-      "name": "FMI HALO 34",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.0b6f9ce3ed364cc4",
-      "name": "FMI Parsivel\u00b2-A",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.816e3e20c6a44fb8",
-      "name": "FMI HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.f33e53dddde44495",
-      "name": "FMI CL61-B",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.e44e1ffac7954538",
-      "name": "FMI RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.846aeec3dbfd4984",
-      "name": "FMI HALO 34",
-      "is_nominal": false
+      "name": "FMI weather station"
     }
   ]
 }

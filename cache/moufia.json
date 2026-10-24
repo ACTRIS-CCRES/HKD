@@ -5,14 +5,7 @@
     {
       "id": "basta",
       "pid": "https://hdl.handle.net/21.12132/3.b84a8d634d944345",
-      "name": "OSU BASTA mini",
-      "is_nominal": false
-    },
-    {
-      "id": "basta",
-      "pid": "https://hdl.handle.net/21.12132/3.b84a8d634d944345",
-      "name": "OSU BASTA mini",
-      "is_nominal": false
+      "name": "OSU BASTA mini"
     }
   ]
 }

@@ -3,58 +3,29 @@
   "last_update": "2026-10-24",
   "instruments": [
     {
+      "id": "chm15kx",
+      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
+      "name": "UFS CHM 15k-x (2009)"
+    },
+    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.3b159f9ee29544e9",
-      "name": "LMU HATPRO-G4",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.30d4d1ff4bb843ca",
-      "name": "UoC HATPRO-G1 (SUNHAT)",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
-      "name": "UFS CHM 15k-x",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.814e6693acda4ba9",
-      "name": "UFS MIRA-35C",
-      "is_nominal": false
+      "name": "LMU HATPRO-G4"
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.81201c9ea7f54352",
-      "name": "UFS HATPRO-G1 (SNOHAT)",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15kx",
-      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
-      "name": "UFS CHM 15k-x",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15kx",
-      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
-      "name": "UFS CHM 15k-x (2009)",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15kx",
-      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
-      "name": "UFS CHM 15k-x (2009)",
-      "is_nominal": false
+      "name": "UFS HATPRO-G1 (SNOHAT)"
     },
     {
       "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.3b159f9ee29544e9",
-      "name": "LMU HATPRO-G4",
-      "is_nominal": false
+      "pid": "https://hdl.handle.net/21.12132/3.30d4d1ff4bb843ca",
+      "name": "UoC HATPRO-G1 (SUNHAT)"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.814e6693acda4ba9",
+      "name": "UFS MIRA-35"
     }
   ]
 }

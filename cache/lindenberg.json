@@ -3,184 +3,89 @@
   "last_update": "2026-10-24",
   "instruments": [
     {
-      "id": "radiometrics",
-      "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
-      "name": "DWD MP-3000A",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.1b0966f63b2d41f2",
-      "name": "DWD Parsivel\u00b2",
-      "is_nominal": false
-    },
-    {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.695573e5981845d9",
-      "name": "DWD CL61",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.d6cc3d73f9dd4d4b",
-      "name": "DWD MIRA-35",
-      "is_nominal": false
-    },
-    {
-      "id": "rain-e-h3",
-      "pid": "https://hdl.handle.net/21.12132/3.3292ee29e461405a",
-      "name": "DWD rain[e]H3",
-      "is_nominal": false
-    },
-    {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
-      "name": "DWD LPM",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.cdf99c536bd04146",
-      "name": "DWD CHM 15k",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.423d89c1b5114af7",
-      "name": "DWD HALO",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.442ec2ea9a24440e",
-      "name": "DWD HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.70dd09553d13484d",
-      "name": "DWD RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.4b31c245e3b143f0",
-      "name": "AWI HALO (288)",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.ffb25f43330f4793",
-      "name": "DWD weather station",
-      "is_nominal": false
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.c682ac7146654de7",
+      "name": "IPSL BASTA (CCRES calibration)"
     },
     {
       "id": "basta",
       "pid": "https://hdl.handle.net/21.12132/3.b517b9f95c014893",
-      "name": "UW BASTA",
-      "is_nominal": false
-    },
-    {
-      "id": "radiometrics",
-      "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
-      "name": "DWD MP-3263A",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.e5ef4b0556c04aa9",
-      "name": "DWD HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "da10",
-      "pid": "https://hdl.handle.net/21.12132/3.9c7bcece918642ea",
-      "name": "DWD DIAL DA10",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.144607267dd64e12",
-      "name": "DWD Parsivel\u00b2 (453155)",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.1b0966f63b2d41f2",
-      "name": "DWD Parsivel\u00b2 (451221)",
-      "is_nominal": false
+      "name": "UW BASTA"
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.cdf99c536bd04146",
-      "name": "DWD CHM 15k (2010)",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.70dd09553d13484d",
-      "name": "DWD RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.144607267dd64e12",
-      "name": "DWD Parsivel\u00b2 (453155)",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.d6cc3d73f9dd4d4b",
-      "name": "DWD MIRA-35",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.cdf99c536bd04146",
-      "name": "DWD CHM 15k (2010)",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.442ec2ea9a24440e",
-      "name": "DWD HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.4b31c245e3b143f0",
-      "name": "AWI HALO (288)",
-      "is_nominal": false
-    },
-    {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
-      "name": "DWD LPM",
-      "is_nominal": false
+      "name": "DWD CHM 15k (2010)"
     },
     {
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.695573e5981845d9",
-      "name": "DWD CL61",
-      "is_nominal": false
+      "name": "DWD CL61"
+    },
+    {
+      "id": "da10",
+      "pid": "https://hdl.handle.net/21.12132/3.9c7bcece918642ea",
+      "name": "DWD DIAL DA10"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.4b31c245e3b143f0",
+      "name": "AWI HALO (288)"
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.423d89c1b5114af7",
+      "name": "DWD HALO"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.442ec2ea9a24440e",
+      "name": "DWD HATPRO-G5"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.e5ef4b0556c04aa9",
+      "name": "DWD HATPRO-G5"
+    },
+    {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.d6cc3d73f9dd4d4b",
+      "name": "DWD MIRA-35"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.1b0966f63b2d41f2",
+      "name": "DWD Parsivel² (451221)"
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.144607267dd64e12",
+      "name": "DWD Parsivel² (453155)"
     },
     {
       "id": "radiometrics",
       "pid": "https://hdl.handle.net/21.12132/3.ca8e16977a634793",
-      "name": "DWD MP-3263A",
-      "is_nominal": false
+      "name": "DWD MP-3263A"
     },
     {
       "id": "rain-e-h3",
       "pid": "https://hdl.handle.net/21.12132/3.3292ee29e461405a",
-      "name": "DWD rain[e]H3",
-      "is_nominal": false
+      "name": "DWD rain[e]H3"
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.70dd09553d13484d",
+      "name": "DWD RPG-FMCW-94-DP"
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.ddeab96e6197478a",
+      "name": "DWD LPM"
     },
     {
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.ffb25f43330f4793",
-      "name": "DWD weather station",
-      "is_nominal": false
+      "name": "DWD weather station"
     }
   ]
 }

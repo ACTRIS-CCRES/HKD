@@ -3,10 +3,19 @@
   "last_update": "2026-10-24",
   "instruments": [
     {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.85a703e2c60c4b66",
+      "name": "UC CL61"
+    },
+    {
+      "id": "mrr-pro",
+      "pid": "https://hdl.handle.net/21.12132/3.199cd174b6864d72",
+      "name": "UC MRR-PRO"
+    },
+    {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.f54a7d7ca3944dec",
-      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)",
-      "is_nominal": false
+      "name": "LIM RPG-FMCW-94-DP (LIMRAD94)"
     }
   ]
 }

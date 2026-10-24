@@ -3,40 +3,29 @@
   "last_update": "2026-10-24",
   "instruments": [
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.1e2e7ddeeda641e5",
-      "name": "UL HALO",
-      "is_nominal": false
+      "id": "cl51",
+      "pid": "https://hdl.handle.net/21.12132/3.1ca2b7d6323f486b",
+      "name": "UKRI CL51"
     },
     {
       "id": "copernicus",
       "pid": "https://hdl.handle.net/21.12132/3.c3e825b4aa71435c",
-      "name": "UKRI Copernicus",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.5f5640d6deb6491d",
-      "name": "UL HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "cl51",
-      "pid": "https://hdl.handle.net/21.12132/3.1ca2b7d6323f486b",
-      "name": "UKRI CL51",
-      "is_nominal": false
+      "name": "UKRI Copernicus"
     },
     {
       "id": "galileo",
       "pid": "https://hdl.handle.net/21.12132/3.981da267085b4966",
-      "name": "UKRI Galileo",
-      "is_nominal": false
+      "name": "UKRI Galileo"
     },
     {
-      "id": "cl51",
-      "pid": "https://hdl.handle.net/21.12132/3.1ca2b7d6323f486b",
-      "name": "UKRI CL51",
-      "is_nominal": false
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.1e2e7ddeeda641e5",
+      "name": "UL HALO"
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.5f5640d6deb6491d",
+      "name": "UL HATPRO-G5"
     }
   ]
 }

@@ -5,50 +5,22 @@
     {
       "id": "basta",
       "pid": "https://hdl.handle.net/21.12132/3.b517b9f95c014893",
-      "name": "UW BASTA",
-      "is_nominal": false
+      "name": "UW BASTA"
     },
     {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.eb35ee6de17b49b4",
-      "name": "PULS CHM 15k",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.eb35ee6de17b49b4",
-      "name": "PULS CHM 15k (2023)",
-      "is_nominal": false
+      "name": "PULS CHM 15k (2023)"
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.e37bba12e285492b",
-      "name": "PULS HATPRO-G5",
-      "is_nominal": false
+      "name": "PULS HATPRO-G5"
     },
     {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.201f6e5ac8c44073",
-      "name": "PULS Parsivel\u00b2",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.e37bba12e285492b",
-      "name": "PULS HATPRO-G5",
-      "is_nominal": false
-    },
-    {
-      "id": "basta",
-      "pid": "https://hdl.handle.net/21.12132/3.b517b9f95c014893",
-      "name": "UW BASTA",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.eb35ee6de17b49b4",
-      "name": "PULS CHM 15k (2023)",
-      "is_nominal": false
+      "name": "PULS Parsivel²"
     }
   ]
 }

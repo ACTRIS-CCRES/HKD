@@ -3,52 +3,34 @@
   "last_update": "2026-10-24",
   "instruments": [
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.191564170f8a4686",
-      "name": "UH RPG-FMCW-94",
-      "is_nominal": false
-    },
-    {
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.241bda142975460b",
-      "name": "UH CL61",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.69dddc0004b64b32",
-      "name": "FMI Parsivel23",
-      "is_nominal": false
-    },
-    {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.80082867c5744f11",
-      "name": "UH weather station",
-      "is_nominal": false
+      "name": "UH CL61"
     },
     {
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.421272f219be4f97",
-      "name": "FMI / UH HALO 46",
-      "is_nominal": false
+      "name": "FMI / UH HALO 46"
     },
     {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.f360a2375f3e4e4f",
-      "name": "UH HATPRO-G5",
-      "is_nominal": false
+      "name": "UH HATPRO-G5"
     },
     {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.69dddc0004b64b32",
-      "name": "FMI Parsivel23",
-      "is_nominal": false
+      "name": "FMI Parsivel23"
     },
     {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.191564170f8a4686",
-      "name": "UH RPG-FMCW-94 (HYDRA-W)",
-      "is_nominal": false
+      "name": "UH RPG-FMCW-94 (HYDRA-W)"
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.80082867c5744f11",
+      "name": "UH weather station"
     }
   ]
 }
