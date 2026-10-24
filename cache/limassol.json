@@ -1,6 +1,6 @@
 {
   "station": "limassol",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -63,6 +63,18 @@
       "is_nominal": false
     },
     {
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.9af43f93e39649f5",
+      "name": "ECoE MIRA-35S",
+      "is_nominal": false
+    },
+    {
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.055aa99bd53c4163",
+      "name": "ECoE PollyXT-CYP",
+      "is_nominal": false
+    },
+    {
       "id": "weather-station",
       "pid": "https://hdl.handle.net/21.12132/3.ef692a4fb6fc4c8f",
       "name": "DoM weather station (TEPAK)",
@@ -78,18 +90,6 @@
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.a5e937a2d7e64283",
       "name": "ECoE HALO (Snoopy)",
-      "is_nominal": false
-    },
-    {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.055aa99bd53c4163",
-      "name": "ECoE PollyXT-CYP",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.9af43f93e39649f5",
-      "name": "ECoE MIRA-35S",
       "is_nominal": false
     },
     {

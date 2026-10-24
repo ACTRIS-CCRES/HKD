@@ -1,6 +1,6 @@
 {
   "station": "cabauw",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "wls200s",
@@ -70,8 +70,14 @@
     },
     {
       "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
-      "name": "TU Delft Parsivel\u00b2 (PAR001)",
+      "pid": "https://hdl.handle.net/21.12132/3.65ecf80219d14d1b",
+      "name": "TU Delft Parsivel\u00b2 (PAR002)",
+      "is_nominal": false
+    },
+    {
+      "id": "wls200s",
+      "pid": "https://hdl.handle.net/21.12132/3.dca88604798e4647",
+      "name": "KNMI WLS200S",
       "is_nominal": false
     },
     {
@@ -82,14 +88,8 @@
     },
     {
       "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.65ecf80219d14d1b",
-      "name": "TU Delft Parsivel\u00b2 (PAR002)",
-      "is_nominal": false
-    },
-    {
-      "id": "pluvio",
-      "pid": "https://hdl.handle.net/21.12132/3.6ea400ba17384d69",
-      "name": "TU Delft Pluvio\u00b2 L 200 RH",
+      "pid": "https://hdl.handle.net/21.12132/3.c55b141f99424547",
+      "name": "TU Delft Parsivel\u00b2 (PAR001)",
       "is_nominal": false
     },
     {
@@ -99,9 +99,9 @@
       "is_nominal": false
     },
     {
-      "id": "wls200s",
-      "pid": "https://hdl.handle.net/21.12132/3.dca88604798e4647",
-      "name": "KNMI WLS200S",
+      "id": "pluvio",
+      "pid": "https://hdl.handle.net/21.12132/3.6ea400ba17384d69",
+      "name": "TU Delft Pluvio\u00b2 L 200 RH",
       "is_nominal": false
     }
   ]

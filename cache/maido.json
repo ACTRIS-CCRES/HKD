@@ -1,6 +1,6 @@
 {
   "station": "maido",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "basta",
@@ -39,15 +39,21 @@
       "is_nominal": false
     },
     {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.5421272f0eb34540",
+      "name": "LACy MetConnect One",
+      "is_nominal": false
+    },
+    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.d7350d66862d4bd3",
       "name": "OSU HATPRO-G5",
       "is_nominal": false
     },
     {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.981516412b2c4c73",
-      "name": "LACy Parsivel\u00b2",
+      "id": "cs135",
+      "pid": "https://hdl.handle.net/21.12132/3.157b13d21ee14e60",
+      "name": "OSU CS135",
       "is_nominal": false
     },
     {
@@ -57,9 +63,9 @@
       "is_nominal": false
     },
     {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.5421272f0eb34540",
-      "name": "LACy MetConnect One",
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.981516412b2c4c73",
+      "name": "LACy Parsivel\u00b2",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "troll",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "hatpro",
@@ -33,15 +33,15 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-35",
-      "pid": "https://hdl.handle.net/21.12132/3.82bd078f71da4bba",
-      "name": "NPI RPG-FMCW-35-DP",
-      "is_nominal": false
-    },
-    {
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.2a12682235ec41c7",
       "name": "NPI CL61",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.82bd078f71da4bba",
+      "name": "NPI RPG-FMCW-35-DP",
       "is_nominal": false
     }
   ]

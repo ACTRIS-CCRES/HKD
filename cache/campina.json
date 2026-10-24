@@ -1,6 +1,6 @@
 {
   "station": "campina",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "rd-80",
@@ -39,9 +39,9 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.f3c16fc50e8a4964",
-      "name": "IFUSP CHM 15k (2016)",
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.8025e920251846da",
+      "name": "IFUSP MIRA-35C (MBC5)",
       "is_nominal": false
     },
     {
@@ -51,9 +51,15 @@
       "is_nominal": false
     },
     {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.8025e920251846da",
-      "name": "IFUSP MIRA-35C (MBC5)",
+      "id": "rd-80",
+      "pid": "https://hdl.handle.net/21.12132/3.72fb657cb20449fa",
+      "name": "NASA RD-80",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.f3c16fc50e8a4964",
+      "name": "IFUSP CHM 15k (2016)",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "evora",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "chm15k",
@@ -21,12 +21,6 @@
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.5c0b56e45213440f",
-      "name": "U\u00c9 HATPRO-G4",
-      "is_nominal": false
-    },
-    {
       "id": "cl61d",
       "pid": "https://hdl.handle.net/21.12132/3.6dd7af6f2cd84926",
       "name": "U\u00c9 CL61",
@@ -42,6 +36,24 @@
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.982ea3f82c82491b",
       "name": "U\u00c9 CHM 15k (2023)",
+      "is_nominal": false
+    },
+    {
+      "id": "cl31",
+      "pid": "https://hdl.handle.net/21.12132/3.a43eb0b4d8e042fa",
+      "name": "U\u00c9 CL31",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.6dd7af6f2cd84926",
+      "name": "U\u00c9 CL61",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.5c0b56e45213440f",
+      "name": "U\u00c9 HATPRO-G4",
       "is_nominal": false
     }
   ]

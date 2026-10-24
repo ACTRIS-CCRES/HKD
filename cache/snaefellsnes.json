@@ -1,6 +1,6 @@
 {
   "station": "snaefellsnes",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -18,6 +18,24 @@
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.0e6c51b7609d40e5",
       "name": "UL RPG-HATPRO-G5 (AURORA)",
+      "is_nominal": false
+    },
+    {
+      "id": "cl61d",
+      "pid": "https://hdl.handle.net/21.12132/3.cefdb0bee5a649c3",
+      "name": "UL CL61 (AURORA)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.0e6c51b7609d40e5",
+      "name": "UL RPG-HATPRO-G5 (AURORA)",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.a2250cb74d264827",
+      "name": "UL RPG-FMCW-94-DP (AURORA)",
       "is_nominal": false
     }
   ]

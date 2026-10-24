@@ -1,6 +1,6 @@
 {
   "station": "cluj",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "chm15k",
@@ -57,15 +57,15 @@
       "is_nominal": false
     },
     {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.7fd1b2d0d767419f",
-      "name": "UBB weather station",
-      "is_nominal": false
-    },
-    {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.0b458d3945e146cc",
       "name": "UBB RPG-FMCW-94-DP",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.028adedd35a44733",
+      "name": "UBB HATPRO-G5",
       "is_nominal": false
     },
     {

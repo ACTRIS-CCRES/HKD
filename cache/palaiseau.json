@@ -1,6 +1,6 @@
 {
   "station": "palaiseau",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "hatpro",
@@ -99,21 +99,15 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.9b914f8c94c4438a",
-      "name": "IPSL CHM 15k (2020)",
-      "is_nominal": false
-    },
-    {
       "id": "parsivel",
       "pid": "https://hdl.handle.net/21.12132/3.7e13f3f243854ae8",
       "name": "IPSL Parsivel\u00b2",
       "is_nominal": false
     },
     {
-      "id": "basta",
-      "pid": "https://hdl.handle.net/21.12132/3.643b7b5b43814e6f",
-      "name": "IPSL BASTA",
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.9b914f8c94c4438a",
+      "name": "IPSL CHM 15k (2020)",
       "is_nominal": false
     },
     {
@@ -123,9 +117,9 @@
       "is_nominal": false
     },
     {
-      "id": "thies-lnm",
-      "pid": "https://hdl.handle.net/21.12132/3.11d3217867474e22",
-      "name": "IPSL/CNRS LPM",
+      "id": "basta",
+      "pid": "https://hdl.handle.net/21.12132/3.643b7b5b43814e6f",
+      "name": "IPSL BASTA",
       "is_nominal": false
     },
     {
@@ -138,6 +132,12 @@
       "id": "halo-doppler-lidar",
       "pid": "https://hdl.handle.net/21.12132/3.760146e3b71b472e",
       "name": "CEREA HALO",
+      "is_nominal": false
+    },
+    {
+      "id": "thies-lnm",
+      "pid": "https://hdl.handle.net/21.12132/3.11d3217867474e22",
+      "name": "IPSL/CNRS LPM",
       "is_nominal": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "station": "pallasjarvi",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "hatpro",
@@ -39,27 +39,15 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-35",
-      "pid": "https://hdl.handle.net/21.12132/3.cded5e33462e4dd3",
-      "name": "TU Delft RPG-FMCW-35-DP (CLARA-35)",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.46797fd6140c4249",
-      "name": "TU Delft HATPRO-G5 (MARIO)",
-      "is_nominal": false
-    },
-    {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.b9ff0d23964949f0",
       "name": "TU Delft RPG-FMCW-94-DP (CLARA-94)",
       "is_nominal": false
     },
     {
-      "id": "cl31",
-      "pid": "https://hdl.handle.net/21.12132/3.19d4da0a4f15434f",
-      "name": "FMI CL31 B",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.af519eeea2db4a90",
+      "name": "FMI HALO 53",
       "is_nominal": false
     },
     {
@@ -69,9 +57,21 @@
       "is_nominal": false
     },
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.af519eeea2db4a90",
-      "name": "FMI HALO 53",
+      "id": "rpg-fmcw-35",
+      "pid": "https://hdl.handle.net/21.12132/3.cded5e33462e4dd3",
+      "name": "TU Delft RPG-FMCW-35-DP (CLARA-35)",
+      "is_nominal": false
+    },
+    {
+      "id": "cl31",
+      "pid": "https://hdl.handle.net/21.12132/3.19d4da0a4f15434f",
+      "name": "FMI CL31 B",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.46797fd6140c4249",
+      "name": "TU Delft HATPRO-G5 (MARIO)",
       "is_nominal": false
     }
   ]

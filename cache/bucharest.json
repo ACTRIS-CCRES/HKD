@@ -1,6 +1,6 @@
 {
   "station": "bucharest",
-  "last_update": "2026-10-18",
+  "last_update": "2026-10-24",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -75,21 +75,9 @@
       "is_nominal": false
     },
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.db58480f58ca49ad",
-      "name": "INOE HALO",
-      "is_nominal": false
-    },
-    {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.c60c931fac9d43f0",
-      "name": "INOE CHM 15k (2017)",
-      "is_nominal": false
-    },
-    {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.e7fe5a4f26ac4717",
-      "name": "INOE HATPRO-G5",
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.930d8f295fa24ae5",
+      "name": "INOE weather station",
       "is_nominal": false
     },
     {
@@ -105,15 +93,27 @@
       "is_nominal": false
     },
     {
-      "id": "weather-station",
-      "pid": "https://hdl.handle.net/21.12132/3.930d8f295fa24ae5",
-      "name": "INOE weather station",
-      "is_nominal": false
-    },
-    {
       "id": "mira-35",
       "pid": "https://hdl.handle.net/21.12132/3.d98f6fd2bec94e5e",
       "name": "INOE MIRA-35S",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.c60c931fac9d43f0",
+      "name": "INOE CHM 15k (2017)",
+      "is_nominal": false
+    },
+    {
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.e7fe5a4f26ac4717",
+      "name": "INOE HATPRO-G5",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.db58480f58ca49ad",
+      "name": "INOE HALO",
       "is_nominal": false
     }
   ]
