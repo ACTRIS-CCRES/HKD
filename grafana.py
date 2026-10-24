@@ -96,10 +96,18 @@ def grafana(verbose: str) -> None:
     multiple=True,
     help="instrument(s) to add or update",
 )
+@click.option(
+    "--start",
+    type=str,
+    default="-5y",
+    show_default=True,
+    help="Flux duration of the period to look for instruments data in InfluxDB",
+)
 def create_dashboards(  # noqa: PLR0915
     config_file: Path,
     station: list[str],
     instr: list[str],
+    start: str,
 ) -> int:
     """Create ACTRIS-CCRES dashboards for all stations."""
     logger.info("Creating dashboards...")
@@ -170,8 +178,23 @@ def create_dashboards(  # noqa: PLR0915
 
         logger.debug("Instruments: %s", ", ".join(instruments_id))
 
+        # instruments having data in InfluxDB
+        available_pids = influx_api.get_site_instruments_pid(
+            bucket=influx_config["bucket"],
+            site_id=site_id,
+            start=start,
+        )
+
         for instrument in instruments_meta:
             if instr and instrument.id not in instr:
+                continue
+
+            if instrument.pid not in available_pids:
+                logger.info(
+                    "No data in InfluxDB for %s, %s. Skipping",
+                    instrument.name,
+                    instrument.pid,
+                )
                 continue
 
             instrument.is_nominal = cloudnet.CloudnetAPI().is_instrument_nominal(

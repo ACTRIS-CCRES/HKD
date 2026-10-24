@@ -93,6 +93,7 @@ Dashboards are only available for llufft CHM15k, RPG HATPRO, RPG-FMCW-35 and RPG
     ```
 
 - Options `-s` and `-i` can be associated
+- Dashboards are only created for instruments with data in InfluxDB (by default during the last 5 years, see option `--start`)
 
 ### Remove dashboards of instruments not available anymore
 
