@@ -95,6 +95,22 @@ Dashboards are only available for llufft CHM15k, RPG HATPRO, RPG-FMCW-35 and RPG
 - Options `-s` and `-i` can be associated
 - Dashboards are only created for instruments with data in InfluxDB (by default during the last 5 years, see option `--start`)
 
+### Update the cache of instruments
+
+The cache is updated automatically when older than one day. It can also be updated explicitly.
+
+- Update the cache of all stations already in cache (only raw files since the last update are requested)
+
+    ```bash
+    python grafana.py update-cache
+    ```
+
+- Add a new station or rebuild the cache of a station from scratch (slow: raw files since 2023 are requested month by month)
+
+    ```bash
+    python grafana.py update-cache -s palaiseau --rebuild
+    ```
+
 ### Remove dashboards of instruments not available anymore
 
 Dashboards of instruments without data in InfluxDB (by default during the last 5 years, the retention period of the bucket) are removed.

@@ -361,5 +361,35 @@ def clean_dashboards(
     return 0
 
 
+@grafana.command()
+@click.option(
+    "--station",
+    "-s",
+    type=str,
+    multiple=True,
+    help="station(s) to update, by default stations already in cache",
+)
+@click.option(
+    "--rebuild",
+    is_flag=True,
+    help="rebuild the cache from scratch instead of updating it",
+)
+def update_cache(station: list[str], *, rebuild: bool) -> int:
+    """Update the cache of instruments of stations from cloudnet."""
+    stations = station or sorted(file.stem for file in CACHE_DIR.glob("*.json"))
+
+    for site_id in stations:
+        logger.info("Updating cache of %s", site_id)
+        instruments = cloudnet.InstrumentsList(
+            site_id,
+            CACHE_DIR,
+            rebuild=rebuild,
+            force_update=True,
+        ).instruments
+        logger.info("%d instruments for %s", len(instruments), site_id)
+
+    return 0
+
+
 if __name__ == "__main__":
     grafana()

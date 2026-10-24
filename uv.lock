@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -157,7 +157,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "click" },
     { name = "influxdb-client" },
-    { name = "iteration-utilities" },
+    { name = "requests" },
 ]
 
 [package.dev-dependencies]
@@ -176,7 +176,7 @@ jupyter = [
 requires-dist = [
     { name = "click", specifier = ">=8.3.1" },
     { name = "influxdb-client", specifier = ">=1.50.0" },
-    { name = "iteration-utilities", specifier = ">=0.13.0" },
+    { name = "requests", specifier = ">=2.32.5" },
 ]
 
 [package.metadata.requires-dev]
@@ -690,30 +690,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/7c/1a/3c8edc664e06e6bd06cce40c6b22da5f1429aa4224d0c590f3be21c91ead/isoduration-20.11.0.tar.gz", hash = "sha256:ac2f9015137935279eac671f94f89eb00584f940f5dc49462a0c4ee692ba1bd9", size = 11649, upload-time = "2020-11-01T11:00:00.312Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7b/55/e5326141505c5d5e34c5e0935d2908a74e4561eca44108fbfb9c13d2911a/isoduration-20.11.0-py3-none-any.whl", hash = "sha256:b2904c2a4228c3d44f409c8ae8e2370eb21a26f7ac2ec5446df141dde3452042", size = 11321, upload-time = "2020-11-01T10:59:58.02Z" },
-]
-
-[[package]]
-name = "iteration-utilities"
-version = "0.13.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d4/cf/391dab93877843f7f8bae210bc9c3fa9053ac968e0e9407e5a2e1d3e3298/iteration_utilities-0.13.0.tar.gz", hash = "sha256:4be84b9846b5dcd607be769fd014daa107824d7f64c09694a22bf3cd5ab881dc", size = 158096, upload-time = "2024-10-08T01:42:24.042Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ee/b5/2983f610d9f042e952b3feca5a913d5fae8714d14155f8da1a1688078291/iteration_utilities-0.13.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:ee590ddb6439e393df66e6b0be7737c4dc367abfd3b13d69ab63260a2f8e0fde", size = 249001, upload-time = "2024-10-08T01:40:56.401Z" },
-    { url = "https://files.pythonhosted.org/packages/ab/dd/af429f5143f22cf6b5e7b778d8a3e4c21d60dbd210bbb6269e714a44147c/iteration_utilities-0.13.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:fd387a8813224dd9721ea41ee5544ccc583ecf934a85b296b429ea29a60686e2", size = 250236, upload-time = "2024-10-08T01:40:57.645Z" },
-    { url = "https://files.pythonhosted.org/packages/83/e3/aba6375dc31f2a5513c3224e09f52aca989d39863395dcd763d997d7a528/iteration_utilities-0.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8117dfa504f8a303928fdd80a37de091570e98170253905461080d667825d858", size = 483160, upload-time = "2024-10-08T01:40:59.526Z" },
-    { url = "https://files.pythonhosted.org/packages/98/a8/9029a79650765df847fbd815a4157dafe8372850d5fe839f4fe2d0bcf9aa/iteration_utilities-0.13.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:5858577e8bc52e3ed843a3bf7f0979acb5eb9478e37d74d6449133ab56f1353b", size = 458199, upload-time = "2024-10-08T01:41:00.756Z" },
-    { url = "https://files.pythonhosted.org/packages/14/61/9ee8f327670ed3b51d2023a6c240c9ff30296bbfa9aac5efb8218dfbd077/iteration_utilities-0.13.0-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:7b6a062f75dfb2c3911fbd46a0937c7809bd6c200032c079ee6ac003a33538de", size = 463436, upload-time = "2024-10-08T01:41:02.091Z" },
-    { url = "https://files.pythonhosted.org/packages/eb/77/17f8bbcc10a25312e5c5aa5ac310dfbd634fa2be7e5dfd6f65fee5a914aa/iteration_utilities-0.13.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:f3d42e305d00e685eb474d6722f9b624e3c60f470fc7a5f87bd0f8a0fb812863", size = 486614, upload-time = "2024-10-08T01:41:04.031Z" },
-    { url = "https://files.pythonhosted.org/packages/6d/60/be2c9906e6380d9b6f24344cfb09abf30bea3849818dff4e9f190de54bd8/iteration_utilities-0.13.0-cp312-cp312-win32.whl", hash = "sha256:1e468655f0a300b3968d7c1f45f6022a2ecf36714ce887513a49145dcccc3b8e", size = 234388, upload-time = "2024-10-08T01:41:05.382Z" },
-    { url = "https://files.pythonhosted.org/packages/42/af/2d83ef6f5466cfd91afb3ea4f244414f085188c9019c226df53e01647919/iteration_utilities-0.13.0-cp312-cp312-win_amd64.whl", hash = "sha256:6c15f35774f51d60012d2b351218cd090dcd98f3833910aa908587faa8572b6e", size = 238316, upload-time = "2024-10-08T01:41:06.496Z" },
-    { url = "https://files.pythonhosted.org/packages/22/8b/ef3cac00c54d7ab7aa357df4e1410ee674d6cdd37603daaee19f6049c8c6/iteration_utilities-0.13.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:c096575da8cc5fe89863363abd2d87dd210c9c8be58fc7dbb46bc5d30d3033a4", size = 248844, upload-time = "2024-10-08T01:41:07.826Z" },
-    { url = "https://files.pythonhosted.org/packages/16/a4/6bc7fe6760232b88b191f5cc452c14ef77108c19434525ec08bcc1c050f6/iteration_utilities-0.13.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:7793b6dfdf6d5531e72c8e0fb3264d689ad31650a3ef3be9e278ffba497e0693", size = 250109, upload-time = "2024-10-08T01:41:09.057Z" },
-    { url = "https://files.pythonhosted.org/packages/3e/08/c0b5dcfb8d186c94f9f5a0b77d86ae22f368efdf43447a8e9651217ee686/iteration_utilities-0.13.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f95ca2a109d0ae5c16b08f112f65b599d1c7760d5c5a94d9ff0c01976744357a", size = 484573, upload-time = "2024-10-08T01:41:10.404Z" },
-    { url = "https://files.pythonhosted.org/packages/a3/26/6f1a0fe045f0fda3a5b9287a6fdaba376ec5d3e898cf7e5f9876f9a09bf9/iteration_utilities-0.13.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d9f53eab13fcb4ccba35f424391eee92506ac75773b8556a33d375c99ab01dd7", size = 458016, upload-time = "2024-10-08T01:41:12.387Z" },
-    { url = "https://files.pythonhosted.org/packages/b1/cc/d9f4c06314df1d727dec83969a2509247563c61cf65fa814d065baa331e9/iteration_utilities-0.13.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:de93fd76bf987d135ef95379e903175d6d7d085f8b3ce193e79a15d5732217d9", size = 463856, upload-time = "2024-10-08T01:41:14.305Z" },
-    { url = "https://files.pythonhosted.org/packages/f7/75/44ec9cffc996da440c470a8c547e78c260bd259825b85a5b665fc6bfac69/iteration_utilities-0.13.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:ced11412ed797c6c682bbf34646d42e3a5c4b4bf8609db2270e2c8fcde7a3cc6", size = 487182, upload-time = "2024-10-08T01:41:16.581Z" },
-    { url = "https://files.pythonhosted.org/packages/19/2c/ee630a9be33f39b3a5cc3f78296d905d9e380a1f19a7656663592e558cf9/iteration_utilities-0.13.0-cp313-cp313-win32.whl", hash = "sha256:4070898f52e3a56ce656001d4a774f1aae0019d6c37668e172dce579c57e6b15", size = 234254, upload-time = "2024-10-08T01:41:18.586Z" },
-    { url = "https://files.pythonhosted.org/packages/98/21/41fae72366afbc9c922a0c12c5d3a60ce005b21615539a1573b3ad97d5ab/iteration_utilities-0.13.0-cp313-cp313-win_amd64.whl", hash = "sha256:59e29ceacdd2010f2a54455a5f89c68976b439d9e3e0c73d9cc44bfa630b4194", size = 238270, upload-time = "2024-10-08T01:41:19.892Z" },
 ]
 
 [[package]]
