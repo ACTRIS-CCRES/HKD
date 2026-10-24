@@ -1,6 +1,6 @@
 {
   "station": "payerne",
-  "last_update": "2026-08-31",
+  "last_update": "2026-10-18",
   "instruments": [
     {
       "id": "chm15k",
@@ -45,15 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.37a71c75789f47c3",
-      "name": "UB RPG-FMCW-94-DP",
-      "is_nominal": false
-    },
-    {
-      "id": "wls200s",
-      "pid": "https://hdl.handle.net/21.12132/3.a3c0f804d91e4966",
-      "name": "MeteoSwiss WLS200S",
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.5ffe1a5df37145cc",
+      "name": "MeteoSwiss CHM 15k (2020)",
       "is_nominal": false
     },
     {
@@ -63,9 +57,21 @@
       "is_nominal": false
     },
     {
+      "id": "wls200s",
+      "pid": "https://hdl.handle.net/21.12132/3.a3c0f804d91e4966",
+      "name": "MeteoSwiss WLS200S",
+      "is_nominal": false
+    },
+    {
       "id": "chm15k",
       "pid": "https://hdl.handle.net/21.12132/3.5ffe1a5df37145cc",
-      "name": "MeteoSwiss CHM 15k",
+      "name": "MeteoSwiss CHM 15k (2020)",
+      "is_nominal": false
+    },
+    {
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.37a71c75789f47c3",
+      "name": "UB RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {

@@ -1,6 +1,6 @@
 {
   "station": "melpitz",
-  "last_update": "2026-08-31",
+  "last_update": "2026-10-18",
   "instruments": [
     {
       "id": "chm15k",
@@ -45,21 +45,9 @@
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.75d6aaafbf1a461d",
-      "name": "TROPOS CHM 15k (Melpitz)",
-      "is_nominal": false
-    },
-    {
-      "id": "mira-35",
-      "pid": "https://hdl.handle.net/21.12132/3.7ddef75d7fee4dba",
-      "name": "TROPOS MIRA-35 (MBR9 Melpitz)",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.be50699171b24e17",
-      "name": "TROPOS HALO (Shaun)",
+      "id": "pollyxt",
+      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
+      "name": "TROPOS PollyXT (Melpitz)",
       "is_nominal": false
     },
     {
@@ -69,9 +57,21 @@
       "is_nominal": false
     },
     {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.75d6aaafbf1a461d",
+      "name": "TROPOS CHM 15k (Melpitz)",
+      "is_nominal": false
+    },
+    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.b47a3d0b8a4c4861",
       "name": "TROPOS HATPRO-G5 (Melpitz)",
+      "is_nominal": false
+    },
+    {
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.be50699171b24e17",
+      "name": "TROPOS HALO (Shaun)",
       "is_nominal": false
     },
     {
@@ -81,9 +81,9 @@
       "is_nominal": false
     },
     {
-      "id": "pollyxt",
-      "pid": "https://hdl.handle.net/21.12132/3.6ff9f3e6c51b4b45",
-      "name": "TROPOS PollyXT (Melpitz)",
+      "id": "mira-35",
+      "pid": "https://hdl.handle.net/21.12132/3.7ddef75d7fee4dba",
+      "name": "TROPOS MIRA-35 (MBR9 Melpitz)",
       "is_nominal": false
     }
   ]

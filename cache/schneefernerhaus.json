@@ -1,6 +1,6 @@
 {
   "station": "schneefernerhaus",
-  "last_update": "2026-08-31",
+  "last_update": "2026-10-18",
   "instruments": [
     {
       "id": "hatpro",
@@ -39,6 +39,12 @@
       "is_nominal": false
     },
     {
+      "id": "chm15kx",
+      "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
+      "name": "UFS CHM 15k-x (2009)",
+      "is_nominal": false
+    },
+    {
       "id": "hatpro",
       "pid": "https://hdl.handle.net/21.12132/3.3b159f9ee29544e9",
       "name": "LMU HATPRO-G4",
@@ -47,7 +53,7 @@
     {
       "id": "chm15kx",
       "pid": "https://hdl.handle.net/21.12132/3.c31cb1ea90be473d",
-      "name": "UFS CHM 15k-x",
+      "name": "UFS CHM 15k-x (2009)",
       "is_nominal": false
     }
   ]

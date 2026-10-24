@@ -1,6 +1,6 @@
 {
   "station": "hyytiala",
-  "last_update": "2026-08-31",
+  "last_update": "2026-10-11",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -48,24 +48,6 @@
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.191564170f8a4686",
       "name": "UH RPG-FMCW-94 (HYDRA-W)",
-      "is_nominal": false
-    },
-    {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.191564170f8a4686",
-      "name": "UH RPG-FMCW-94 (HYDRA-W)",
-      "is_nominal": false
-    },
-    {
-      "id": "parsivel",
-      "pid": "https://hdl.handle.net/21.12132/3.69dddc0004b64b32",
-      "name": "FMI Parsivel23",
-      "is_nominal": false
-    },
-    {
-      "id": "cl61d",
-      "pid": "https://hdl.handle.net/21.12132/3.241bda142975460b",
-      "name": "UH CL61",
       "is_nominal": false
     }
   ]

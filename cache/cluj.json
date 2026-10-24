@@ -1,6 +1,6 @@
 {
   "station": "cluj",
-  "last_update": "2026-08-31",
+  "last_update": "2026-10-18",
   "instruments": [
     {
       "id": "chm15k",
@@ -39,15 +39,39 @@
       "is_nominal": false
     },
     {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.d6bf209bc48b48a4",
+      "name": "UBB CHM 15k (2023)",
+      "is_nominal": false
+    },
+    {
+      "id": "chm15k",
+      "pid": "https://hdl.handle.net/21.12132/3.d6bf209bc48b48a4",
+      "name": "UBB CHM 15k (2023)",
+      "is_nominal": false
+    },
+    {
+      "id": "parsivel",
+      "pid": "https://hdl.handle.net/21.12132/3.5a6e24d0ff9042b1",
+      "name": "UBB Parsivel\u00b2",
+      "is_nominal": false
+    },
+    {
+      "id": "weather-station",
+      "pid": "https://hdl.handle.net/21.12132/3.7fd1b2d0d767419f",
+      "name": "UBB weather station",
+      "is_nominal": false
+    },
+    {
       "id": "rpg-fmcw-94",
       "pid": "https://hdl.handle.net/21.12132/3.0b458d3945e146cc",
       "name": "UBB RPG-FMCW-94-DP",
       "is_nominal": false
     },
     {
-      "id": "chm15k",
-      "pid": "https://hdl.handle.net/21.12132/3.d6bf209bc48b48a4",
-      "name": "UBB CHM 15k",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.5d15cd3ce9c54139",
+      "name": "UBB HALO",
       "is_nominal": false
     }
   ]

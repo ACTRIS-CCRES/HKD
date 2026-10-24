@@ -1,6 +1,6 @@
 {
   "station": "neumayer",
-  "last_update": "2026-08-31",
+  "last_update": "2026-10-18",
   "instruments": [
     {
       "id": "rpg-fmcw-94",
@@ -69,15 +69,15 @@
       "is_nominal": false
     },
     {
-      "id": "hatpro",
-      "pid": "https://hdl.handle.net/21.12132/3.b8d48671eebe45ec",
-      "name": "AWI HATPRO-G5",
+      "id": "halo-doppler-lidar",
+      "pid": "https://hdl.handle.net/21.12132/3.e166bb0b5e9246ce",
+      "name": "AWI HALO (234)",
       "is_nominal": false
     },
     {
-      "id": "rpg-fmcw-94",
-      "pid": "https://hdl.handle.net/21.12132/3.9ccc0053d5c44ca6",
-      "name": "AWI RPG-FMCW-94-DP",
+      "id": "hatpro",
+      "pid": "https://hdl.handle.net/21.12132/3.b8d48671eebe45ec",
+      "name": "AWI HATPRO-G5",
       "is_nominal": false
     },
     {
@@ -87,9 +87,9 @@
       "is_nominal": false
     },
     {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.e166bb0b5e9246ce",
-      "name": "AWI HALO (234)",
+      "id": "rpg-fmcw-94",
+      "pid": "https://hdl.handle.net/21.12132/3.9ccc0053d5c44ca6",
+      "name": "AWI RPG-FMCW-94-DP",
       "is_nominal": false
     }
   ]

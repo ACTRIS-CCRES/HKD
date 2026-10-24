@@ -1,6 +1,6 @@
 {
   "station": "chennai",
-  "last_update": "2026-08-31",
+  "last_update": "2026-10-18",
   "instruments": [
     {
       "id": "halo-doppler-lidar",
@@ -18,12 +18,6 @@
       "id": "cl51",
       "pid": "https://hdl.handle.net/21.12132/3.254922f7f5f84424",
       "name": "FMI CL51-B",
-      "is_nominal": false
-    },
-    {
-      "id": "halo-doppler-lidar",
-      "pid": "https://hdl.handle.net/21.12132/3.a93d1483f10742ff",
-      "name": "FMI HALO 146",
       "is_nominal": false
     }
   ]
