@@ -38,6 +38,20 @@ logger_root = logging.getLogger()
 logger_root.setLevel(logging.DEBUG)
 
 
+def get_dashboard_uid(instrument: cloudnet.Instrument, site_id: str) -> str:
+    """Get grafana dashboard UID of an instrument at a station."""
+    pid_short = utils.short_pid(instrument.pid)
+    dashboard_uid = f"ccres-{instrument.id.replace('-', '')}-hkd-{site_id}-{pid_short}"
+    if len(dashboard_uid) > UID_MAX_STRING_LENGTH:
+        dashboard_uid = dashboard_uid[:UID_MAX_STRING_LENGTH]
+        logger.warning(
+            "Dashboard UID was too long. Stripping it to %d",
+            UID_MAX_STRING_LENGTH,
+        )
+
+    return dashboard_uid
+
+
 @click.group(invoke_without_command=True, no_args_is_help=True)
 @click.option(
     "--verbose",
@@ -82,7 +96,11 @@ def grafana(verbose: str) -> None:
     multiple=True,
     help="instrument(s) to add or update",
 )
-def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -> int:
+def create_dashboards(  # noqa: PLR0915
+    config_file: Path,
+    station: list[str],
+    instr: list[str],
+) -> int:
     """Create ACTRIS-CCRES dashboards for all stations."""
     logger.info("Creating dashboards...")
     # read configuration file
@@ -178,15 +196,7 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
             # load dashboard template
             dashboard_tmpl = config["instruments"][instrument.id]["one-site"]
             dashboard_path = TEMPLATES_DIR / dashboard_tmpl
-            dashboard_uid = (
-                f"ccres-{instrument.id.replace('-', '')}-hkd-{site_id}-{pid_short}"
-            )
-            if len(dashboard_uid) > UID_MAX_STRING_LENGTH:
-                dashboard_uid = dashboard_uid[:UID_MAX_STRING_LENGTH]
-                logger.warning(
-                    "Dashboard UID was too long. Stripping it to %d",
-                    UID_MAX_STRING_LENGTH,
-                )
+            dashboard_uid = get_dashboard_uid(instrument, site_id)
             logger.debug("Dashboard template: %s", dashboard_tmpl)
 
             # replace tags in dashboard template
@@ -223,6 +233,106 @@ def create_dashboards(config_file: Path, station: list[str], instr: list[str]) -
             # create dashboard
             logger.info("dashboard UID: %s", dashboard_uid)
             grafana.create_dashboard(dashboard, folder_uid=folders_uid[site_id])
+            time.sleep(1)  # avoid error from sqlite DB timeout
+
+    return 0
+
+
+@grafana.command()
+@click.argument(
+    "config-file",
+    type=click.Path(
+        exists=True,
+        file_okay=True,
+        dir_okay=False,
+        readable=True,
+        resolve_path=True,
+        path_type=Path,
+    ),
+)
+@click.option(
+    "--station",
+    "-s",
+    type=str,
+    multiple=True,
+    help="station(s) to clean",
+)
+@click.option(
+    "--start",
+    type=str,
+    default="-5y",
+    show_default=True,
+    help="Flux duration of the period to look for instruments data in InfluxDB",
+)
+@click.option(
+    "--dry-run",
+    is_flag=True,
+    help="only list the dashboards to remove",
+)
+def clean_dashboards(
+    config_file: Path,
+    station: list[str],
+    start: str,
+    *,
+    dry_run: bool,
+) -> int:
+    """Remove dashboards of instruments without data in InfluxDB."""
+    logger.info("Cleaning dashboards...")
+    config = utils.read_conf(config_file)
+    influx_config = config["influxdb"]
+
+    influx_api = influxdb.Influx(
+        influx_config["url"],
+        influx_config["token"],
+        influx_config["org"],
+        influx_config["port"],
+    )
+    grafana = GrafanaAPI(url=config["grafana"]["url"], token=config["grafana"]["token"])
+
+    # station folders are the ones with a cache file
+    folders_uid = {
+        elt["title"]: elt["uid"]
+        for elt in grafana.get_folders()
+        if (CACHE_DIR / f"{elt['title']}.json").exists()
+    }
+
+    for site_id, folder_uid in folders_uid.items():
+        if station and site_id not in station:
+            continue
+
+        logger.info("Processing station: %s", site_id)
+
+        # instruments still having data in InfluxDB
+        available_pids = influx_api.get_site_instruments_pid(
+            bucket=influx_config["bucket"],
+            site_id=site_id,
+            start=start,
+        )
+        if not available_pids:
+            logger.warning("No instrument data in InfluxDB for %s", site_id)
+        logger.debug("Available instruments PID: %s", ", ".join(available_pids))
+
+        instruments_meta = cloudnet.InstrumentsList(site_id, CACHE_DIR).instruments
+        available_uids = {
+            get_dashboard_uid(instrument, site_id)
+            for instrument in instruments_meta
+            if instrument.pid in available_pids
+        }
+
+        # only consider dashboards created by create-dashboards
+        for dashboard in grafana.get_dashboards(folder_uid):
+            uid = dashboard["uid"]
+            if not uid.startswith("ccres-") or "-hkd-" not in uid:
+                continue
+            if uid in available_uids:
+                continue
+
+            if dry_run:
+                logger.info("[dry-run] would remove: %s (%s)", dashboard["title"], uid)
+                continue
+
+            logger.info("Removing dashboard: %s (%s)", dashboard["title"], uid)
+            grafana.delete_dashboard(uid)
             time.sleep(1)  # avoid error from sqlite DB timeout
 
     return 0

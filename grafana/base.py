@@ -39,6 +39,16 @@ class GrafanaAPI:
         """Get dashboards url."""
         return f"{self.url_api}/dashboards/db"
 
+    @property
+    def url_dashboards_uid(self) -> str:
+        """Get dashboards by uid url."""
+        return f"{self.url_api}/dashboards/uid"
+
+    @property
+    def url_search(self) -> str:
+        """Get search url."""
+        return f"{self.url_api}/search"
+
     def get_folders(self) -> list[dict[str, str]]:
         """
         Get folders in grafana organization.
@@ -117,6 +127,55 @@ class GrafanaAPI:
         )
         if resp.status_code not in HTTP_OK:
             msg = f"ERROR creating dashboard: {resp.status_code}, {resp.text}"
+            raise requests.exceptions.HTTPError(msg)
+
+        return resp.json()
+
+    def get_dashboards(self, folder_uid: str) -> list[dict]:
+        """
+        Get dashboards of a folder in grafana organization.
+
+        Parameters
+        ----------
+        folder_uid : str
+            Folder uid.
+
+        Returns
+        -------
+        list[dict]
+            The list of dashboards in the folder.
+
+        """
+        params = {"type": "dash-db", "folderUIDs": folder_uid, "limit": 5000}
+        resp = requests.get(
+            self.url_search,
+            headers=self.headers,
+            params=params,
+            timeout=TIMEOUT,
+        )
+        if resp.status_code not in HTTP_OK:
+            msg = f"ERROR getting dashboards: {resp.status_code}, {resp.text}"
+            raise requests.exceptions.HTTPError(msg)
+
+        return resp.json()
+
+    def delete_dashboard(self, dashboard_uid: str) -> dict:
+        """
+        Delete a dashboard in grafana organization.
+
+        Parameters
+        ----------
+        dashboard_uid : str
+            Dashboard uid.
+
+        """
+        resp = requests.delete(
+            f"{self.url_dashboards_uid}/{dashboard_uid}",
+            headers=self.headers,
+            timeout=TIMEOUT,
+        )
+        if resp.status_code not in HTTP_OK:
+            msg = f"ERROR deleting dashboard: {resp.status_code}, {resp.text}"
             raise requests.exceptions.HTTPError(msg)
 
         return resp.json()

@@ -94,6 +94,23 @@ Dashboards are only available for llufft CHM15k, RPG HATPRO, RPG-FMCW-35 and RPG
 
 - Options `-s` and `-i` can be associated
 
+### Remove dashboards of instruments not available anymore
+
+Dashboards of instruments without data in InfluxDB (by default during the last 5 years, the retention period of the bucket) are removed.
+
+- List the dashboards which would be removed
+
+    ```bash
+    python grafana.py clean-dashboards conf/conf.toml --dry-run
+    ```
+
+- Remove dashboards for all stations or for specific stations
+
+    ```bash
+    python grafana.py clean-dashboards conf/conf.toml
+    python grafana.py clean-dashboards conf/conf.toml -s juelich -s palaiseau
+    ```
+
 ## Developments
 
 - To install the development requirements
